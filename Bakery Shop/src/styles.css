@@ -1,0 +1,8 @@
+body {
+    font-family: sans-serif;
+}
+
+.content {
+    padding-top: 100px; /* Đặt khoảng cách bằng chiều cao của header */
+}
+@import '../node_modules/font-awesome/css/font-awesome.css'

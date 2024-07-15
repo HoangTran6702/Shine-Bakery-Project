@@ -1,0 +1,117 @@
+<table>
+    <tr  class="tr-1">
+        <td colspan="2" class="page-title">
+            <h2 class="title-content">Your Cart</h2>
+            <hr class="hr-title">    
+        </td>
+    </tr>
+
+    <tr>
+        <td class="product-list">
+            <div class="product">
+                <table class="product-table" *ngFor="let cart of cartData">
+                    <tr>
+                        <td rowspan="3" class="product-img-container"><img src="{{cart.image}}" alt=""></td>
+                        <td>
+                            <h4>{{cart.name}}</h4>
+                        </td>
+                        <td>
+                            <button class="btn-close" (click)="removeToCart(cart.id)" ><span class="material-symbols-outlined">X</span></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="unit">Loaf</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Quantity: {{cart.quantity}}
+                        </td>
+                        <td class="price">
+                            {{cart.price}}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <hr>
+                        </td>
+                    </tr>
+                </table>
+
+
+                <table class="product-table" *ngFor="let cart of localCartData">
+                    <tr>
+                        <td rowspan="3" class="product-img-container"><img src="{{cart.image}}" alt=""></td>
+                        <td>
+                            <h4>{{cart.name}}</h4>
+                        </td>
+                        <td>
+                            <button class="btn-close" (click)="removeToCart(cart.id)" ><span class="material-symbols-outlined">X</span></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="unit">Loaf</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Quantity: {{cart.quantity}}
+                        </td>
+                        <td class="price">
+                            {{cart.price}}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <hr>
+                        </td>
+                    </tr>
+                </table>
+                
+            </div>
+        </td>
+        <td class="td-bill-container">
+            <div  class="bill-container">
+                <h3>BILL DETAILS</h3>
+                <hr>
+                <!-- <div class="item">
+                    <p class="priceItem">Amount: <span>{{priceSummary.price}}</span></p>
+                    <p class="priceItem">Tax: <span>{{priceSummary.tax}}</span></p>
+                    <p class="priceItem">Delivery: <span>{{priceSummary.delivery}}</span></p>
+                    <p class="priceItem">Discount: <span>{{priceSummary.discount}}</span></p>
+                </div> -->
+                <div class="total">
+                    <p class="total-title">Total</p>
+                    <p class="total-price" *ngIf="priceSummary.total !== 0">{{priceSummary.total}}</p>
+                    <p class="total-price" *ngIf="totalCartPrice !== 0">{{ totalCartPrice }}</p>
+                    
+                </div>
+                <p class="attention">Shipping fee and discount will be included in payment step</p>
+                <button class="btn-payment" (click)="cartDetail()">Payment</button>
+                <div class="btn-keepShopping">
+                    <a routerLink="/products">Keep Shopping</a>
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3" class="note">
+            <h4>Order Note</h4>
+            <textarea class="orderNote" cols="60" rows="5"></textarea>
+        </td>
+        
+    </tr>
+    <tr>
+        <td colspan="3" class="policy">
+            <h4>Shopping Policy</h4>
+                <p>
+                    
+                    Please check the product carefully before payment
+                </p>
+                <p>
+                    Contact for further information: 02438222228 
+                </p>
+                <p>
+                    Sales for cake product only apply when buying at the store.
+                </p>
+        </td>
+    </tr>
+</table>

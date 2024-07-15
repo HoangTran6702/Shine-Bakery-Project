@@ -1,0 +1,36 @@
+/* Đảm bảo các mục nằm ngang */
+.container .nav-item {
+    display: inline-block;
+    background-color: #F1DAB2;
+    /* margin-top: 50px; */
+    margin-bottom: 50px;
+    width: 25%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
+  
+  /* Tùy chỉnh kiểu hiển thị và khoảng cách giữa các mục */
+   .nav-link-active {
+    text-align: center;
+    color: #1E4530;
+    text-decoration: none;
+    font-weight:700;
+    position: relative;
+    display: inline-block;
+  }
+    .nav-link-active:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -20px;
+      height: 3px; /* Chiều cao của gạch dưới */
+      background-color: #1E4530; /* Màu sắc của gạch dưới */
+      transform: scaleX(0);
+      transition: transform 0.3s ease;
+    }
+    .nav-link-active:hover::after {
+      transform: scaleX(1);
+    }

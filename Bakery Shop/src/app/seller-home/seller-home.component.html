@@ -1,0 +1,60 @@
+<div class="product-list">
+    <h1>All Product List</h1>
+    <p class="message-p">{{productMessage}}</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Taste</th>
+                <th>Category</th>
+                <th>Description</th>
+                <th>Image</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of productList">
+                <td>{{item.name}}</td>
+                <td>{{item.price}}</td>
+                <td>{{item.taste}}</td>
+                <td>{{item.category}}</td>
+                <td style="width: 450px; word-break: break-all;">{{item.description}}</td>
+                <td><img src="{{item.image}}"></td>
+                <td class="btn">
+                    <button (click)="deleteProduct(item.id)">Delete</button>
+                    <button id="update" routerLink="/seller-update-product/{{item.id}}">Update</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="Post-list">
+    <h1>All Post List</h1>
+    <p class="message-p">{{PostMessage}}</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Type</th>
+                <th>Title</th>
+                <th>Image</th>
+                <th>Date</th>
+                <th>Description</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of postList">
+                <td>{{item.type}}</td>
+                <td>{{item.title}}</td>
+                <td><img src="{{item.image}}"></td>
+                <td>{{item.date}}</td>
+                <td>{{item.description}}</td>
+                <td class="btn">
+                    <button (click)="deletePost(+item.id)">Delete</button>
+                    <button id="update" routerLink="/news/updatepost/{{item.id}}">Update</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,101 @@
+.myTable {
+    table-layout: fixed;
+    max-width: 100%; 
+    border-spacing: 0px;
+    border-collapse: collapse;
+    padding: 0px;
+    text-align: center;
+    table-layout: fixed;
+}
+
+.aboutUs{
+    background-color: rgb(241, 218, 178);
+    text-align: center;
+    padding: 50px; 
+    font-size: 70px; 
+    color: rgb(30, 69, 48);
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px;
+}
+
+.textEnjoyBig{
+  text-align: right;
+  padding-right: 50px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.textEnjoySmall{
+    text-align: right;
+    padding-right: 50px;
+    font-size: 15px;
+}
+
+.imgEnjoy{
+    text-align: left;
+}
+
+.textHere{
+    background-color: rgb(172, 132, 92);
+    padding: 100px; 
+    text-align: justify;
+    font-size: 20px;
+}
+
+.container {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+
+.textTop {
+  padding-top: 550px;
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color:white;
+}
+
+.transbox {
+  /* margin-top: 10px; */
+  margin-bottom: 30px;
+  background-color: white;
+  border: 1px solid black;
+  opacity: 0.85;
+  padding-top: 20px;
+  width: 140%;
+  height: 600%;
+
+}
+
+.transboxText {
+  font-weight: bold;
+  color: #000000;
+  font-size: 25px;
+  text-align: left;
+}
+
+.transboxTextSmall {
+  color: #000000;
+  font-size: 20px;
+  text-align: left;
+}
+
+.imgQuotationLeft{
+  width: 70px;
+  height: 70px;
+  padding-left: 20px;
+}
+
+.imgQuotationRight{
+  width: 70px;
+  height: 70px;
+  padding-left: 20px;
+}
+
+.textPadding{
+  padding-left: 20px;
+  padding-right: 20px;
+}

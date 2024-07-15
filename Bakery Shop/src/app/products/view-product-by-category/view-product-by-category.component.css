@@ -1,0 +1,80 @@
+@import
+url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+@keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(0); /* Thay đổi giá trị này để không có phần rơi xuống */
+      }
+}
+
+.card {
+border: none;
+margin-bottom: 50px;
+text-align: center;
+}
+
+.card:hover {
+    animation: bounce 2.5s infinite;
+}
+
+.img-container {
+    position: relative
+}
+
+.img-container img {
+    width: 100%;
+    border-radius: 30px;
+}
+.img-scale {
+    width: 200px;
+    height: 250px;
+    object-fit: cover
+}
+    .product-detail-container {
+    padding: 10px
+    }
+    .ratings i {
+    color: #a9a6a6
+    }
+    .ratings span {
+    color: #a9a6a6
+    }
+    .count {
+    color: #a9a6a6;
+    }
+    label.radio {
+    cursor: pointer
+    }
+    label.radio input {
+    position: absolute;
+    top: 0;
+    left: 0;
+visibility: hidden;
+pointer-events: none
+}
+label.radio span {
+height: 25px;
+width: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid #dc3545;
+color: #dc3545;
+font-size: 10px;
+border-radius: 50%;
+text-transform: uppercase
+}
+label.radio input:checked+span {
+border-color: #dc3545;
+background-color: #dc3545;
+color: #fff
+}
+video {
+    margin-left: 75px; 
+}

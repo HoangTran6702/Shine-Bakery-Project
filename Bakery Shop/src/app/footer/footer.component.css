@@ -1,0 +1,24 @@
+.tdFootertext{
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding: 30px 5px 5px 5px;
+    color: rgb(241, 218, 178);
+    font-size: 20px;
+}
+
+.tdFooterContent{
+    padding: 15px 5px 5px 5px;
+    color: white;
+}
+
+.tdFooter{
+    color: white; 
+    padding: 50px 50px 10px 50px; 
+    text-align: center;
+}
+
+.imgLogo{
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: left;
+}

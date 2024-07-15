@@ -1,0 +1,64 @@
+
+<div class="display-content" >
+    <div>
+      <div (click)="openFilter()" class="navi-open">
+        <div class="straignst"></div>
+        <div class="straignnd"></div>
+      </div>
+    </div>
+    <div class="filter">
+      <div (click)="offFilter()" class="navi">
+        <div class="straignt-one"></div>
+        <div class="straignt-two"></div>
+      </div>
+      <ul>
+        <li style="display:flex;align-items:center;justify-content:center">
+          <p style=" font-size:3vw; ">Filter</p>
+        </li>
+        <li>
+         <p>Category</p>
+          <select [(ngModel)]="category" (change)="filterProductsByCategory(category || '')">
+            <option>All</option>
+            <option *ngFor="let item of uniqueCategories">{{ item }}</option>
+          </select>
+        </li>      
+        <li>
+          <p>Price</p>
+          <select [(ngModel)]="price" (change)="sortProductsByPrice('' + price)">
+            <option>High to Low</option>
+            <option>Low to High</option>
+          </select>
+        </li>
+        <li>
+          <p>Range price</p>
+          <select [(ngModel)]="selectedPriceRange" (change)="selectedPriceRange && filterProductsByPriceRange(selectedPriceRange)">
+            <option>All</option>
+            <option value="0-25000">0-25000</option>
+            <option value="25000-50000">25000-50000</option>
+            <option value="50000-100000">50000-100000</option>
+            <option value="Over: 100000">Over: 100000</option>
+          </select>
+        </li>
+        <li style="flex-direction: row;  align-items:center">
+          <label for="best"><p>Best Seller</p></label> 
+          <input id="best" type="checkbox">
+        </li>
+      </ul>
+    </div>
+    <div class="display-product-search">
+      <div class="nav-search" *ngIf="searchResult">
+        <div class="shape"></div>
+        <p>There are {{ searchResult.length }} products for "{{ query }}"</p>
+      </div>
+      <div class="product">
+        <div [routerLink]="['/products/product/', item.id]" class="search-item" *ngFor="let item of searchResult">
+          <div style="display:flex; flex-direction: column; align-items:center;">
+            <img src="{{ item.image }}" alt="">
+            <p style="height:3.2vw;">{{ item.name }}</p>
+            <p style="color: #DC3545">Price: {{ item.price }} đ</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

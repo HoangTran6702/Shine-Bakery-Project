@@ -1,0 +1,209 @@
+<table class="table-ShippingDetails">
+    <tr>
+        <td class="shippingDetails">
+            <div class="div-shippingDetails">
+                <h4>ENTER SHIPPING DETAILS</h4>
+                <!-- <p class="message-p">{{orderMsg}}</p> -->
+                <!-- <hr class="hr-title"> -->
+                <div>
+                    <form #orderData="ngForm" class="form" (ngSubmit)="orderNow(orderData.value)">
+                        <input type="text"
+                        class="form-input"
+                        placeholder="Full Name"
+                        name="name"
+                        ngModel
+                        />
+                        <div>
+                            <input type="text"
+                            class="email"
+                            placeholder="Enter Email"
+                            name="email"
+                            ngModel
+                            />
+                            <input type="number"
+                            class="form-input"
+                            placeholder="Phone Number"
+                            name="tel"
+                            ngModel
+                            />
+                        </div>
+                        
+                        <input type="text"
+                        class="form-input"
+                        placeholder="Enter Address"
+                        name="address"
+                        ngModel
+                        />
+                        <div>
+                            <input type="text"
+                            class="city"
+                            placeholder="City"
+                            name="city"
+                            ngModel
+                            />
+                            <input type="text"
+                            class="form-input"
+                            placeholder="District"
+                            name="district"
+                            ngModel
+                            />
+                        </div>
+                        <div class="div-finishingDetails">
+                            <h4>SHIPPING METHOD</h4>
+                            <!-- <hr class="hr-title"> -->
+                           
+                                <div class="shippingMethods">
+                                    <div class="div-selection">
+                                        <input type="radio" 
+                                        id="atStore" 
+                                        name="shipMethod" 
+                                        value="store" 
+                                        checked
+                                        [(ngModel)]="orderFormData.shipMethod"
+                                        (change)="updateShippingFee()">
+                                        <Label for="atStore">Take order at nearest store</Label>
+                                        <p>0đ</p>
+                                    </div>
+                                    <div class="div-selection">
+                                        <input type="radio" 
+                                        id="quickShipping" 
+                                        name="shipMethod" 
+                                        value="shipping" 
+                                        [(ngModel)]="orderFormData.shipMethod"
+                                        (change)="updateShippingFee()">
+                                        <div>
+                                            <Label for="quickShipping">Quick shipping <br><span>Receive after 3 hours</span></Label>
+                                        </div>
+                                        <p>20.000đ</p>
+                                    </div>
+                                </div>
+                                <h4>PAYMENT METHOD</h4>
+                                <div class="paymentMethods">
+                                    <div class="div-selection">
+                                        <input type="radio" 
+                                        id="byOnline" 
+                                        name="payMethod" 
+                                        value="online" 
+                                        checked 
+                                        [(ngModel)]="orderFormData.payMethod">
+                                        <Label for="payMethod">Online payment/ Banking/ Momo</Label>
+                                    </div>
+                                    <div class="div-selection">
+                                        <input type="radio" 
+                                        id="byCash" 
+                                        name="payMethod" 
+                                        value="cash" 
+                                        [(ngModel)]="orderFormData.payMethod">
+                                        <Label for="payMethod">Pay by cash</Label>
+                                    </div>
+                                </div>
+                        </div>
+                        
+                        <button class="btn-continue"  >Order Now</button>
+                        <!-- (click)="cartFinished()" -->
+                    </form>
+                </div>
+            
+            </div>
+            
+        </td>
+        <td class="orderDetails">
+            <div class="div-orderDetails">
+                <table class="table-orderDetails" *ngFor="let cart of cartData">
+                    <tr>
+                        <td rowspan="3" class="orderDetails-img-container">
+                            <img src="{{cart.image}}" alt="">
+                        </td>
+                        <td colspan="2">
+                            <h4>{{cart.name}}</h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="unit">Loaf</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Qty: {{cart.quantity}}
+                        </td>
+                        <td class="price">
+                            20.000đ
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <hr class="hr-item">
+                        </td>
+                    </tr>
+                </table>
+
+                <table class="table-orderDetails" *ngFor="let cart of localCartData">
+                    <tr>
+                        <td rowspan="3" class="orderDetails-img-container"><img src="{{cart.image}}" alt=""></td>
+                        <td>
+                            <h4>{{cart.name}}</h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="unit">Loaf</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Quantity: {{cart.quantity}}
+                        </td>
+                        <td class="price">
+                            {{cart.price}}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <hr  class="hr-item">
+                        </td>
+                    </tr>
+                </table>
+                
+            </div>
+            <div class="discount">
+                <h4>Coupon/ Discount Code</h4>
+                <div class="discount-container">
+                    <input type="text" id="discount-input">
+                    <button class="btn-apply">Apply</button>
+                </div>
+                <hr class="hr-item">
+            </div>
+            
+            <div class="pre-total">
+                <table class="pre-total-table">
+                    <tr>    
+                        <td>
+                            <p>Pre-total</p>
+                        </td>
+                        <td id="pre-total-amount" *ngIf="priceSummary.price !== 0">
+                            {{priceSummary.price}}
+                        </td>
+                        <td id="pre-total-amount" *ngIf="totalCartPrice !== 0">
+                            {{totalCartPrice}}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Shipping fee
+                        </td>
+                        <td id="shipping-fee-amount">
+                            {{priceSummary.delivery}}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><hr class="hr"></td>
+                    </tr>
+                </table>                    
+            </div>
+            
+            <div class="total">
+                <h3 class="total-title">Total</h3>
+                <p id="total-amount" *ngIf="priceSummary.total !==0">VNĐ {{priceSummary.total}}</p>
+                <p id="total-amount" *ngIf="totalPayment !==0" >VNĐ {{totalPayment}}</p>
+            </div>
+            <p class="message-p">{{orderMsg}}</p>
+        </td>
+    </tr>
+</table>

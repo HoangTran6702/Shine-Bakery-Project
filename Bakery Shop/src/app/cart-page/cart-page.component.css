@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Sometype+Mono:wght@500&display=swap');
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat",sans-serif;
+}
+table{
+    width: 100%;
+    height: auto;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.tr-1{
+    text-align: center;
+}
+.page-title{
+    width: 100%;
+
+}
+.hr-title {
+    width: 7em;
+    height: 5px;
+    border-radius: 5px;
+    background: #1E4530;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.tr-1 h2{
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.3em;
+    color: #1E4530 !important; 
+}
+.product-list{
+    width: 60%;
+}
+.product{
+    margin: 30px 0 0 60px;
+    display: flex;
+    flex-direction: column;
+}   
+.product-table{
+    width: 90%;
+}
+img{
+    width: 7em;
+    height: 7em;
+    float: left;
+    border-radius: 5px;
+    margin-right:10px;
+    
+}
+
+.unit{
+    font-size: 1rem;
+    color: gray;
+}
+.adjust-box{
+    display: flex;
+}
+.product-img-container{
+    width: 15%;
+}
+.material-symbols-outlined{
+    margin-top: 2px;
+    font-size: 15px;
+}
+
+button:not(.btn-payment){
+    border: 1px solid gainsboro;
+    cursor: pointer;
+    background: #fff;
+    width: 20px;
+}
+button:hover:not(.btn-payment){
+    background: rgb(241, 240, 240);
+
+}
+
+.quantity{
+    width: 30px;
+    height: 22px;
+    border: 1px solid gainsboro;
+    text-align: center;
+    background: #F5F7F8;
+}
+.btn-close{
+    border-radius: 50%;
+    height: 20px;
+    background: gainsboro;
+    border: none;
+    font-weight: 900;
+    float: right;
+}
+.btn-close span{
+    text-align: center;
+    font-weight: 900;
+    
+}
+.price{
+    float: right;
+    padding-top: 10px;
+    font-weight: 900;
+}
+
+.product hr{
+    border: none;
+    height: 2px;
+    border-radius: 5px;
+    background: gainsboro;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.td-bill-container{
+    vertical-align: top;
+}
+
+.bill-container{
+    /* border: 2px solid #1E4530; */
+    margin-top: 30px;
+    width: 60%;
+    height: 200px;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    border-top: 1px solid #1E4530;
+    border-left: 1px solid #1E4530;
+    border-right: 2px solid #1E4530;
+    border-bottom: 2px solid #1E4530;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
+}
+.bill-container h3{
+    color: #1E4530;
+    letter-spacing: 0.1em;
+}
+.bill-container hr{
+    border: none;
+    height: 2px;
+    border-radius: 5px;
+    background: gainsboro;
+    
+}
+
+.priceItem{
+    /* margin-bottom: 5px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+}
+/* .priceItem span{
+    margin-left: 100px;
+} */
+.total{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.total-price{
+    color: red;
+}
+.attention{
+    font-size: 0.7em;
+}
+.btn-payment{
+    margin-top: 5px;
+    height: 30px;
+    border-radius: 5px;
+    background: #1E4530;
+    border: none;
+    color: #FFFB73;
+    font-weight: 600;
+    letter-spacing: 0.5em;
+    box-shadow: 5px 5px gray ;
+    background-image: linear-gradient(60deg,#2A573F,#00ED6D);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: .4s;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.btn-payment:hover{
+    background-size: 100% 100%;
+}
+.btn-payment:active{
+    color:red;
+    font-weight: 900;
+    font-size: 1.3em;
+}
+
+.btn-keepShopping{
+    text-align: center;
+    font-size: 0.7em;
+    text-decoration: none;
+    color: black;
+}
+
+.note{
+    padding-left: 60px;
+    padding-top: 5px;
+}
+.orderNote{
+    background:rgb(236, 236, 236);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.policy{
+    padding-left: 60px;
+    padding-top: 10px;
+}
+.policy p{
+    margin-top: 2px;
+    margin-bottom: 5px;
+}

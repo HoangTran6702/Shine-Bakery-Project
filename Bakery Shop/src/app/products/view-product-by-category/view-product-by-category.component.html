@@ -1,0 +1,25 @@
+<video width="88.5%" autoplay [loop]="true">
+    <source src="assets/images/VideoBackground.mp4"  type="video/mp4">
+</video>  
+<div>
+    <app-sidebar></app-sidebar>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4" *ngFor="let products of productList">
+            <div routerLink="/details/{{products.id}}" class="card">
+                <div class="img-container">
+                    <img src="{{products.image}}" class="img-scale">
+                <div class="product-detail-container">
+                    <div class="justify-content-between align-itemscenter">
+                        <h6 class="mb-0 text-truncate">{{products.name}}</h6>
+                    </div>
+                    <div>
+                        <span class="text-danger fw-bold">{{products.price}} đ</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

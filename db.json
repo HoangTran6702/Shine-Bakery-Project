@@ -1,0 +1,841 @@
+{
+  "seller": [
+    {
+      "name": "ShineBakery",
+      "password": "ShineBakery",
+      "email": "ShineBakery@seller.com",
+      "id": 1
+    },
+    {
+      "name": "ngan",
+      "email": "ngan@gmail.com",
+      "password": "ngan",
+      "id": 2
+    },
+    {
+      "name": "test",
+      "email": "test@gmail.com",
+      "password": "test",
+      "id": 3
+    },
+    {
+      "name": "test",
+      "email": "test@gmail.com",
+      "password": "test",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "name": "Buttercream Bread",
+      "price": "60000",
+      "category": "Bread",
+      "taste": "",
+      "description": "Bread dough(wheat flour, water, margarine, whole egg, sugar, mixed skim milk powder, yeast, whipping cream, sea salt, bread improver, yeast, skimmed milk powder), Butter cream, Egg wash(egg, water)Bread dough(wheat flour, water, margarine, whole egg, sugar, mixed skim milk powder, yeast, whipping cream, sea salt, bread improver, yeast, skimmed milk powder), Butter cream, Egg wash(egg, water)",
+      "image": "https://assets-global.website-files.com/6419b668828857182d1e7359/645068bb1560011534b8f210_Butter%20Cream%20Bread.webp",
+      "id": 1,
+      "categoryId": 1
+    },
+    {
+      "name": "Blueberry Cream Cheese Bread",
+      "price": "75000",
+      "category": "Bread",
+      "taste": "",
+      "description": "Dough[wheat flour, cream cheese, sugared dried blueberries, blueberry jam, milk, sugar, egg yolk, prepared edible fat, corn starch, all purpose flour, xanthan gum, ε-polylysine, water, glutinous flour(tapioca starch), whole egg, sugar, margarine, yeast, sea salt, bread improver, whipping cream, yeast, skimmed milk powder], Sliced almond",
+      "image": "https://assets-global.website-files.com/6419b668828857182d1e7359/6450724cf44cacc419f4ee3b_Blueberry%20Cream%20Cheese%20Bread.webp",
+      "id": 2,
+      "categoryId": 1
+    },
+    {
+      "name": "Raisin Bread",
+      "price": "75000",
+      "category": "Bread",
+      "taste": "",
+      "description": "Bread dough(wheat flour, water, dried raisin, sugar, milk, liquid egg, shortening, yeast, sea salt, dough improver, Egg wash(egg, water)",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3dead51_Raisin%2520Bread-p-500.webp",
+      "id": 3,
+      "categoryId": 1
+    },
+    {
+      "name": "Multi-Grain Pan Bread",
+      "price": "75000",
+      "category": "Bread",
+      "taste": "",
+      "description": "Bread dough(wheat flour, water, sunflower seed, pumpkin seed, multi grain mix(sesame), liquid egg, sugar, yeast, margarine, butter, dough improver, skimmed milk powder, sea salt), Egg wash(egg, water)",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3dead4f_Multi-Grain%2520Pan%2520Bread-p-500.webp",
+      "id": 4,
+      "categoryId": 1
+    },
+    {
+      "name": "Sweet Frank Roll",
+      "price": "75000",
+      "category": "Bread",
+      "taste": "",
+      "description": "Bread dough(wheat flour, water, liquid egg, sugar, milk, butter, margarine, heavy cream, yeast, milk powder, dough improver, sea salt), Beef franks, Shredded mozzarella, Egg wash(egg, water), Parsley flakes",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3dead4e_Sweet%2520Frank%2520Roll-p-500.webp",
+      "id": 6,
+      "categoryId": 1
+    },
+    {
+      "name": "Croque Monsieur",
+      "price": "75000",
+      "category": "Bread",
+      "taste": "",
+      "description": "Whipping cream pan bread(wheat flour, water, milk, sugar, heavy cream, liquid egg, butter, margarine, milk powder, yeast, sea salt, dough improver), Cloud cream[heavy cream(milk), whipped cream, sugar], Shredded mozzarella, Sliced ham(pork), Sliced american cheese, Mayonnaise, Dried parsley",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3dead4b_Croque%20Monsieur.webp",
+      "id": 7,
+      "categoryId": 1
+    },
+    {
+      "name": "Soboro Bread",
+      "price": "75000",
+      "category": "Bread",
+      "taste": "",
+      "description": "Soboro bun[wheat flour, water, liquid egg, sugar, milk, butter, margarine, heavy cream(milk), yeast, milk powder, dough improver, sea salt], Soboro topping[wheat flour, sugar, margarine, peanut butter, chopped peanuts, corn powder, whole egg, corn syrup, baking powder, baking soda, sea salt, artificial flavor(peanut)], Soboro bun biscuit[wheat flour, margarine, sugar, peanut butter, chopped peanuts, corn powder, whole egg, baking powder, baking soda, sea salt, artificial flavor(peanut)], Egg wash(egg, water)",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3dead4a_Soboro-p-500.webp",
+      "id": 8,
+      "categoryId": 1
+    },
+    {
+      "name": "Custard Bun",
+      "price": "75000",
+      "category": "Bread",
+      "taste": "",
+      "description": "Filling[milk, sugar, egg yolk, prepared edible fat, corn starch, all purpose flour, xanthan gum, ε-polylysine], Dough[wheat flour, water, sugar, margarine, whole egg, egg yolk, milk, yeast, mixed skim milk powder, sea salt, dough improver, dark brown sugar, yeast, vanilla flavored syrup, yeast food, skimmed mlikpowder], Sliced almond, Egg wash(egg, water)",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3dead37_Custard%2520Bun-p-500.webp",
+      "id": 9,
+      "categoryId": 1
+    },
+    {
+      "name": "Whole Milk Loaf",
+      "price": "75000",
+      "category": "Bread",
+      "taste": "",
+      "description": "Bread dough(wheat flour, milk, water, sugar, prepared edible fat, shortening, mixed skim milk powder, yeast, sea salt, dough improver, propylene glycol alginate, prepared edible fat, milk cream, xanthan gum), Egg wash(egg, water)",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3dead35_Whole%20Milk%20Loaf.webp",
+      "id": 10,
+      "categoryId": 1
+    },
+    {
+      "name": "Red Bean Bread",
+      "price": "75000",
+      "category": "Bread",
+      "taste": "",
+      "description": "Bread dough(red bean paste, wheat flour, water, sugar, margarine, whole egg, egg yolk, milk, yeast, mixed skimmed milk powder, sea salt, bread improver, dark brown sugar, skimmed milk powder, vanilla flavored syrup, yeast, yeast food), Cloud cream[heavy cream(milk), whipped cream, sugar], Egg wash(egg, water), Black sesame",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3dead34_Redbean%2520Bread-p-500.webp",
+      "id": 11,
+      "categoryId": 1
+    },
+    {
+      "name": "Milk Cream Bread",
+      "price": "75000",
+      "category": "Bread",
+      "taste": "",
+      "description": "Milk cream(milk, sugar, whipping cream, condensed milk, egg white, prepared edible fat, waxy corn starch, wheat flour, xanthan gum, vanilla extract, milk flavor), Dough(wheat flour, sugar, prepared edible fat, mixed skimmed milk power, yeast, sea salt, dough improver, yeast food)",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3dead32_Milk%2520Cream%2520Bread%2520(1)-p-500.webp",
+      "id": 12,
+      "categoryId": 1
+    },
+    {
+      "name": "Purple Sweet Potato Loaf",
+      "price": "75000",
+      "category": "Bread",
+      "taste": "",
+      "description": "Bread dough(wheat flour, water, sugar, milk, margarine, yeast, liquid egg, taro powder, purple sweet potato mix, sea salt, dough improver, skimmed milk powder, ube flavoring extract), Egg wash(egg, water)",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3dead19_Purple%2520Sweet%2520Potato%2520Loaf-p-500.webp",
+      "id": 13,
+      "categoryId": 1
+    },
+    {
+      "name": "Taro Cream Bread",
+      "price": "75000",
+      "category": "Bread",
+      "taste": "",
+      "description": "Bread dough(wheat flour, water, sugar, milk, shortening, taro powder, liquid egg, yeast, dough Improver, sea salt, ube flavoring), Taro butter cream(butter cream, taro powder), Taro almond cream(almond cream, taro powder)",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deacc5_Taro%2520Cream%2520Bread-p-500.webp",
+      "id": 14,
+      "categoryId": 1
+    },
+    {
+      "name": "Potato Cheese Bread",
+      "price": "75000",
+      "category": "Bread",
+      "taste": "",
+      "description": "Filling(milk, cream cheese, steamed potato, sugar, egg white, condensed milk, soft wheat flour, waxy corn starch, whipping cream, sea salt, locust bean gum), Bread dough(glutinous flour, water, steamed potato, wheat flour, margarine, sugar, food starch, whole egg, soybean oil, cheddar cheese, sea salt, mixed skim milk powder, roasted potato flavoring), Topping(steamed potato, olive oil, wheat flour, potato powder, sugar, sea salt, roasted potato flavoring)",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deae21_Potato%2520Cheese%2520Bread-p-500.jpg",
+      "id": 15,
+      "categoryId": 1
+    },
+    {
+      "name": "Potato Cheese Bread",
+      "price": "75000",
+      "category": "Bread",
+      "taste": "",
+      "description": "Filling(milk, cream cheese, steamed potato, sugar, egg white, condensed milk, soft wheat flour, waxy corn starch, whipping cream, sea salt, locust bean gum), Bread dough(glutinous flour, water, steamed potato, wheat flour, margarine, sugar, food starch, whole egg, soybean oil, cheddar cheese, sea salt, mixed skim milk powder, roasted potato flavoring), Topping(steamed potato, olive oil, wheat flour, potato powder, sugar, sea salt, roasted potato flavoring)",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deae21_Potato%2520Cheese%2520Bread-p-500.jpg",
+      "id": 15,
+      "categoryId": 1
+    },
+    {
+      "name": "Honey Cheese Mochi Pancake",
+      "price": "75000",
+      "category": "Bread",
+      "taste": "",
+      "description": "Bread dough(glutinous flour, water, wheat flour, margarine, cheddar cheese, food starch, whole egg, soybean oil, parmesan cheese, sugar, sea salt, mixed skim milk powder, grated parmesan cheese), Filling(cream cheese, milk, sugar, milk2, whipping cream, egg white, condensed milk, wheat flour, waxy corn starch, locust bean gum, xanthan gum), Honey",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deadde_Honey%2520Cheese%2520Mochi%2520Pancake-p-500.webp",
+      "id": 16,
+      "categoryId": 1
+    },
+    {
+      "name": "Cloud Cake",
+      "price": "550000",
+      "category": "Cake",
+      "taste": "",
+      "description": "Cloud cream[heavy cream(milk), whipped cream, sugar], White cake sheet(whole egg, wheat flour, sugar, egg white, milk, corn syrup, shortening, margarine, emulsifying agent, corn starch, baking powder, salt, citric acid, xanthan gum), Strawberry, Simple syrup(water, sugar, lemon juice), Green grapes, Red grapes, Blackberry, Blueberry, Raspberry, Glaze, Chocolate sign board(dark)",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deade9_Screenshot%25202023-05-15%2520at%252012.12.18%2520PM-p-500.png",
+      "id": 17,
+      "categoryId": 2
+    },
+    {
+      "name": "Blueberry Yogurt Cream Cake",
+      "price": "550000",
+      "category": "Cake",
+      "taste": "",
+      "description": "Yogurt cream[heavy cream(milk), whipped cream, yogurt powder, sugar], Blueberry cake sheet(liquid egg, sugar, wheat flour, butter, emulsifier agent, violet food coloring(FD&C red3, blue1, red40, yellow5, blue2), blueberry flavor emulsion, baking powder, ube flavoring extract, sea salt), Blueberry, Blueberry filling, Cake syrup(water, sugar), Glaze, Chocolate signboard(dark)",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deade7_Screenshot%25202023-05-15%2520at%252011.52.02%2520AM-p-500.png",
+      "id": 18,
+      "categoryId": 2
+    },
+    {
+      "name": "Strawberry Cloud Cake",
+      "price": "550000",
+      "category": "Cake",
+      "taste": "",
+      "description": "Strawberry cloud cream(heavy cream, whipping cream, sugar, strawberry syrup), Strawberry cake sheet[liquid egg, sugar, wheat flour, butter, strawberry syrup, strawberry powder, emulsifying agent, baking powder, sea salt, food coloring(pink)], Strawberry, Simple syrup (water, sugar, lemon), Red grape, Blueberry, Decorative chocolate, Glaze",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deade6_Strawberry%2520Cloud%2520Cake-p-500.webp",
+      "id": 20,
+      "categoryId": 2
+    },
+    {
+      "name": "Green Tea Cloud Cake",
+      "price": "550000",
+      "category": "Cake",
+      "taste": "",
+      "description": "Green tea cake sheet(liquid egg, sugar, wheat flour, butter, green tea powder, emulsifying agent, baking powder, sea salt, food color), Cloud cream[heavy cream(milk), whipping cream, sugar], Strawberry, Simple syrup (water, sugar, lemon), Green tea sheet crumb, Blackberry, Green grape, Raspberry, Blueberry, Glaze",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deade5_Green%2520Tea%2520Cloud%2520Cake-p-500.webp",
+      "id": 21,
+      "categoryId": 2
+    },
+    {
+      "name": "Peach Cream Cake",
+      "price": "550000",
+      "category": "Cake",
+      "taste": "",
+      "description": "Cream, Whole egg, Whipping cream, Apricot jam, Sugar, Frozen peach, White chocolate, Wheat flour, Water, Milk, Coating chocolate, Yogurt powder, Corn syrup, Shortening, Margarine, Cheese, Emulsifying agent, Corn starch, Baking powder, Peach flavored syrup, Salt, Cake stabilizer, Citric acid, Xanthan gum, Sugar powder",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deade4_Peach%2520Cream%2520Cake-p-500.webp",
+      "id": 22,
+      "categoryId": 2
+    },
+    {
+      "name": "Triple Berry Cloud",
+      "price": "550000",
+      "category": "Cake",
+      "taste": "",
+      "description": "Cloud cream[heavy cream(milk), whipped cream, sugar], White cake sheet(whole egg, wheat flour, sugar, egg white, milk, corn syrup, shortening, margarine, emulsifying agent, corn starch, baking powder, salt, citric acid, xanthan gum), Strawberry, Raspberry, Blueberry, Strawberry cream[heavy cream(milk), whipped cream, sugar, strawberry syrup], Simple syrup(water, sugar, lemon juice), Glaze",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deae28_Screenshot%25202023-05-17%2520at%25203.52.39%2520PM-p-500.png",
+      "id": 23,
+      "categoryId": 2
+    },
+    {
+      "name": "Mango Cloud",
+      "price": "550000",
+      "category": "Cake",
+      "taste": "",
+      "description": "Mango cream[heavy cream(milk), mango puree, whipped cream, sugar, mango compound], White cake sheet(whole egg, wheat flour, sugar, egg white, milk, corn syrup, shortening, margarine, emulsifying agent, corn starch, baking powder, salt, citric acid, xanthan gum), Mango, Blueberry, Cloud cream[heavy cream(milk), whipped cream, sugar], Simple syrup(water, sugar, lemon juice), Mango glaze(Mango compound, water, sugar, lemon juice), Glaze",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deade2_Mango%2520Cloud%25202-p-500.webp",
+      "id": 24,
+      "categoryId": 2
+    },
+    {
+      "name": "Mocha Cloud",
+      "price": "550000",
+      "category": "Cake",
+      "taste": "",
+      "description": "Mocha cloud cream[heavy cream(milk), coffee extract, whipped cream, sugar], Mocha cake sheet(liquid egg, sugar, wheat flour, butter, emulsifying agent, coffee extract, baking powder, sea salt), Strawberry, Cloud cream[heavy cream(milk), whipped cream, sugar], Cake syrup(water, sugar), Caramel sauce, Green grape, Raspberry, Blueberry, Glaze",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deade1_Screenshot%202023-05-02%20at%209.35.30%20AM.webp",
+      "id": 25,
+      "categoryId": 2
+    },
+    {
+      "name": "Choco Cloud",
+      "price": "550000",
+      "category": "Cake",
+      "taste": "",
+      "description": "Mocha cloud cream[heavy cream(milk), coffee extract, whipped cream, sugar], Mocha cake sheet(liquid egg, sugar, wheat flour, butter, emulsifying agent, coffee extract, baking powder, sea salt), Strawberry, Cloud cream[heavy cream(milk), whipped cream, sugar], Cake syrup(water, sugar), Caramel sauce, Green grape, Raspberry, Blueberry, Glaze",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deade0_Screenshot%25202023-05-02%2520at%25209.25.22%2520AM-p-500.webp",
+      "id": 26,
+      "categoryId": 2
+    },
+    {
+      "name": "Cheesecake",
+      "price": "550000",
+      "category": "Cake",
+      "taste": "",
+      "description": "Cheese cake base[cream cheese, sugar, soboro crunch topping{wheat flour. margarine, sugar, wheat flour, corn starch, glucose(corn starch), oligosaccharide, egg, skimmed milk powder(milk), baking powder}, whipping cream, greek yogurt, prepared edible fat(butter), whole egg, vanilla extract], Glaze",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deadf0_Screenshot%25202023-05-15%2520at%252012.26.57%2520PM-p-500.png",
+      "id": 27,
+      "categoryId": 2
+    },
+    {
+      "name": "Triple Chocolate Mousse Cake",
+      "price": "550000",
+      "category": "Cake",
+      "taste": "",
+      "description": "Mousse cake base[milk cream, dark chocolate, sugar, milk, white chocolate, milk chocolate, water, whole egg, wheat flour, egg yolk, egg white, shortening, soybean oil, cocoa powder, gelatin(pork), margarine, vanilla extract, emulsifying agent, salt, cocoa powder, baking soda, baking powder], Ganache filling, Decorative chocolate(white), Cocoa powder, Powdered sugar, Chocolate signboard(dark)",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deadef_Screenshot%25202023-05-15%2520at%252012.25.34%2520PM-p-500.png",
+      "id": 27,
+      "categoryId": 2
+    },
+    {
+      "name": "Caramel Apple Pie",
+      "price": "550000",
+      "category": "Pastry",
+      "taste": "",
+      "description": "Bread dough(wheat flour, apple pie filling, prepared edible fat, water, caramel, sugar, mixed skim milk powder, sea salt), Egg yolk. Glaze",
+      "image": "https://assets-global.website-files.com/6419b668828857182d1e7359/645073a064613b9f92685349_Caremel%20Apple%20Pie.webp",
+      "id": 27,
+      "categoryId": 3
+    },
+    {
+      "name": "Almond Croissant",
+      "price": "70000",
+      "category": "Pastry",
+      "taste": "",
+      "description": "Croissant[wheat flour, butter, water, sugar, yeast, whole milk powder, eggs, salt, wheat gluten, food enzymes, ascorbic acid], Almond cream[whole egg, margarine, sugar, almond powder, wheat flour, salt], Sliced almond, Sugar powder",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deadbd_Almond%2520Croissant-p-500.webp",
+      "id": 28,
+      "categoryId": 3
+    },
+    {
+      "name": "Fruit Pastry",
+      "price": "70000",
+      "category": "Pastry",
+      "taste": "",
+      "description": "Pastry dough(wheat flour, butter, water, sugar, yeast, whole egg, sea salt, dough improver, mixed skim milk powder, yeast food), Cloud cream[heavy cream(milk), whipped cream, sugar], Parisian cream, Strawberry, Blueberry, Green grapes, Raspberry, Red grapes, Egg wash(egg, water), Glaze, Sugar powder",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deae24_Fruit%2520Pastry-p-500.jpg",
+      "id": 29,
+      "categoryId": 3
+    },
+    {
+      "name": "Pain Au Chocolat",
+      "price": "70000",
+      "category": "Pastry",
+      "taste": "",
+      "description": "Wheat flour, Butter, Water, Chocolate, Sugar, Yeast, Whole milk powder, Wheat gluten, Salt, Food enzymes, Ascorbic acid, Egg wash(egg, water)",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deae22_Pain%2520Au%2520Chocolat-p-500.jpg",
+      "id": 30,
+      "categoryId": 3
+    },
+    {
+      "name": "Strawberry Croissant",
+      "price": "70000",
+      "category": "Pastry",
+      "taste": "",
+      "description": "Croissant[wheat flour, butter, water, sugar, yeast, whole milk powder, eggs, salt, wheat gluten, food enzymes, ascorbic acid], Fresh strawberries, Cloud cream[heavy cream(milk), whipped cream, sugar], Sugar powder",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deadb7_Strawberry%2520Croissant-p-500.webp",
+      "id": 31,
+      "categoryId": 3
+    },
+    {
+      "name": "Croissant",
+      "price": "70000",
+      "category": "Pastry",
+      "taste": "",
+      "description": "Croissant[wheat flour, butter, water, sugar, yeast, whole milk powder, eggs, salt, wheat gluten, food enzymes, ascorbic acid], Fresh strawberries, Cloud cream[heavy cream(milk), whipped cream, sugar], Sugar powder",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deadb7_Strawberry%2520Croissant-p-500.webp",
+      "id": 32,
+      "categoryId": 3
+    },
+    {
+      "name": "Croquette",
+      "price": "70000",
+      "category": "Pastry",
+      "taste": "",
+      "description": "Filling[water, onion, boiled burdock, carrot, red bell pepper, concentrated soy protein, shiitake mushroom, chinese leek, cellophane noodles, soybean oil, modified corn starch, salt, black pepper, sauce(broth), chili pepper], Dough(wheat flour, water, whole egg, shortening, sugar, yeast, dough improver, sea salt, baking powder, yeast food), Bread crumbs, Soybean oil",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deaddd_Croquette-p-500.webp",
+      "id": 33,
+      "categoryId": 3
+    },
+    {
+      "name": "Sweet Rice Donut",
+      "price": "70000",
+      "category": "Pastry",
+      "taste": "",
+      "description": "Glutinous rice flour, Red bean paste, Water, Wheat flour, Sugar, Corn syrup, Shortening, Baking powder, Sea salt, Baking soda, Corn oil",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deaddb_Sweet%2520Rice%2520Donut-p-500.webp",
+      "id": 34,
+      "categoryId": 3
+    },
+    {
+      "name": "Iced Lavender Latte",
+      "price": "70000",
+      "category": "Beverages",
+      "taste": "",
+      "description": "Sip back and relax with an Iced Lavender Vanilla Latte. Drink & lavender vanilla syrup recipe included.",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deae15_Copy%2520of%2520Iced%2520Lavender%2520Latte-p-500.png",
+      "id": 35,
+      "categoryId": 4
+    },
+    {
+      "name": "Iced Cafe Mocha",
+      "price": "70000",
+      "category": "Beverages",
+      "taste": "",
+      "description": "Our rich, full-bodied espresso combined with bittersweet mocha sauce, milk and ice, then topped with sweetened whipped cream. The classic iced coffee drink that always sweetly satisfies.",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deae14_Copy%2520of%2520Iced%2520Cafe%2520Mocha-p-500.png",
+      "id": 36,
+      "categoryId": 4
+    },
+    {
+      "name": "Cafe Latte",
+      "price": "70000",
+      "category": "Beverages",
+      "taste": "",
+      "description": "A one-to-one combination of fresh-brewed coffee and steamed milk add up to one distinctly delicious coffee drink remarkably mixed.",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deae11_Copy%2520of%2520Cafe%2520Latte-p-500.png",
+      "id": 37,
+      "categoryId": 4
+    },
+    {
+      "name": "Cafe Americano",
+      "price": "70000",
+      "category": "Beverages",
+      "taste": "",
+      "description": "Espresso shots topped with hot water create a light layer of crema culminating in this wonderfully rich cup with depth and nuance.",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deae05_Copy%2520of%2520Cafe%2520Americano-p-500.jpg",
+      "id": 38,
+      "categoryId": 4
+    },
+    {
+      "name": "Honey Lavender Matcha Latte",
+      "price": "70000",
+      "category": "Beverages",
+      "taste": "",
+      "description": "Indulge in a soothing and aromatic experience with this Lavender Matcha Latte. This Lavender matcha combines the earthy flavors of matcha with the delicate floral notes of lavender, this enchanting beverage offers a perfect balance of relaxation and revitalization. Join us as we whisk our way through this simple recipe and embark on a journey of calm and tranquility!",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deae16_Copy%2520of%2520Honey%2520Lavender%2520Matcha%2520Latte-p-500.png",
+      "id": 39,
+      "categoryId": 4
+    },
+    {
+      "name": "Iced Ube Latte",
+      "price": "70000",
+      "category": "Beverages",
+      "taste": "",
+      "description": "This creamy and colorful ube latte is sweet and refreshing! Ube extract is mixed with ice and almond milk, then topped with strong espresso.",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deae07_Copy%2520of%2520Iced%2520Ube%2520Latte-p-500.png",
+      "id": 40,
+      "categoryId": 4
+    },
+    {
+      "name": "Iced Green Tea",
+      "price": "70000",
+      "category": "Beverages",
+      "taste": "",
+      "description": "This tasty drink has virtually no calories but is ultra satisfying, pairing the herbaceous, grassy flavor of green tea with a hint of lemon and jingling ice cubes.",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deae2d_Iced%2520Green%2520Tea-p-500.png",
+      "id": 41,
+      "categoryId": 4
+    },
+    {
+      "name": "Strawberry Smoothie",
+      "price": "70000",
+      "category": "Beverages",
+      "taste": "",
+      "description": "Place strawberries, milk, yogurt, honey (or maple syrup), if using, and vanilla in a blender. Blend until smooth.",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deae1e_Copy%20of%20Strawberry%20Smoothie.png",
+      "id": 42,
+      "categoryId": 4
+    },
+    {
+      "name": "Mango Smoothie",
+      "price": "70000",
+      "category": "Beverages",
+      "taste": "",
+      "description": "Place mango, milk, yogurt, honey (or maple syrup), if using, and vanilla in a blender. Blend until smooth.",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deae1d_Copy%2520of%2520Mango%2520Smoothie-p-500.png",
+      "id": 43,
+      "categoryId": 4
+    },
+    {
+      "name": "Matcha Frappe",
+      "price": "70000",
+      "category": "Beverages",
+      "taste": "",
+      "description": "Macha, milk, yogurt, honey (or maple syrup), if using, and vanilla in a blender. Blend until smooth.",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deae1b_Copy%20of%20Matcha%20Frappe.png",
+      "id": 44,
+      "categoryId": 4
+    },
+    {
+      "name": "Mocha Frappe",
+      "price": "70000",
+      "category": "Beverages",
+      "taste": "",
+      "description": "Macha, milk, yogurt, honey (or maple syrup), if using, and vanilla in a blender. Blend until smooth.",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deae19_Copy%2520of%2520Mocha%2520Frappe-p-500.png",
+      "id": 45,
+      "categoryId": 4
+    },
+    {
+      "name": "Caramel Frappe",
+      "price": "70000",
+      "category": "Beverages",
+      "taste": "",
+      "description": "Macha, milk, yogurt, honey (or maple syrup), if using, and vanilla in a blender. Blend until smooth.",
+      "image": "https://assets-global.website-files.com/649249d29a20bd6bc3deac48/649249d29a20bd6bc3deae1a_Copy%20of%20Caramel%20Frappe.png",
+      "id": 46,
+      "categoryId": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "BREAD"
+    },
+    {
+      "id": 2,
+      "categoryName": "CAKE"
+    },
+    {
+      "id": 3,
+      "categoryName": "PASTRY"
+    },
+    {
+      "id": 4,
+      "categoryName": "BEVERAGES"
+    }
+  ],
+  "users": [
+    {
+      "name": "ngan",
+      "password": "ngan",
+      "email": "ngan@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "thang",
+      "password": "thang",
+      "email": "thang@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "test",
+      "email": "test@gmail.com",
+      "password": "test",
+      "id": 3
+    },
+    {
+      "name": "testcart",
+      "email": "testcart@gmail.com",
+      "password": "testcart",
+      "id": 123456
+    },
+    {
+      "name": "Khoa",
+      "email": "",
+      "password": "12345",
+      "id": "Ob5nQjF"
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": "nfpMNOt"
+    },
+    {
+      "name": "Khoa",
+      "email": "",
+      "password": "",
+      "id": "fr-UMUM"
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": "6wG9fiV"
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": "DA9kEW7"
+    },
+    {
+      "name": "gsd",
+      "email": "",
+      "password": "",
+      "id": "-eyowpq"
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": "Ap2Qa6L"
+    },
+    {
+      "name": "Khoa",
+      "email": "",
+      "password": "12345",
+      "id": "tm3HD0r"
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 123457
+    }
+  ],
+  "cart": [
+    {
+      "name": "Buttercream Bread",
+      "price": "60000",
+      "category": "Bread",
+      "taste": "",
+      "description": "Bread dough(wheat flour, water, margarine, whole egg, sugar, mixed skim milk powder, yeast, whipping cream, sea salt, bread improver, yeast, skimmed milk powder), Butter cream, Egg wash(egg, water)Bread dough(wheat flour, water, margarine, whole egg, sugar, mixed skim milk powder, yeast, whipping cream, sea salt, bread improver, yeast, skimmed milk powder), Butter cream, Egg wash(egg, water)",
+      "image": "https://assets-global.website-files.com/6419b668828857182d1e7359/645068bb1560011534b8f210_Butter%20Cream%20Bread.webp",
+      "categoryId": 1,
+      "quantity": 1,
+      "productId": 1,
+      "userId": 3,
+      "id": 1
+    }
+  ],
+  "orders": [
+    {
+      "name": "sdasda",
+      "email": "",
+      "tel": "",
+      "address": "",
+      "city": "",
+      "district": "",
+      "shipMethod": "shipping",
+      "payMethod": "online",
+      "totalPrice": 245000,
+      "id": 1
+    },
+    {
+      "name": "Tran Quoc Thang",
+      "email": "viktor1882002@gmail.com",
+      "tel": "+84937423008",
+      "address": "1",
+      "city": "1231",
+      "district": "",
+      "shipMethod": "shipping",
+      "payMethod": "cash",
+      "totalPrice": 545000,
+      "id": 2
+    },
+    {
+      "name": "qwqwqwq",
+      "email": "qwew",
+      "tel": "qweq",
+      "address": "wqewq",
+      "city": "",
+      "district": "",
+      "shipMethod": "shipping",
+      "payMethod": "online",
+      "totalPrice": 170000,
+      "id": 3
+    },
+    {
+      "name": "Vương Hoàng Trân",
+      "email": "trantran@gmail.com",
+      "tel": 888699663,
+      "address": "155/5 đường số 8, phường Linh Xuân, thành phố Thủ Đức, Hồ Chí Minh",
+      "city": "Hồ Chí Minh",
+      "district": "Thủ Đức",
+      "shipMethod": "store",
+      "payMethod": "cash",
+      "totalPrice": 210000,
+      "id": 4
+    },
+    {
+      "name": "Vương Hoàng Trân",
+      "email": "trantran@gmail.com",
+      "tel": 888699663,
+      "address": "155/5 đường số 8, phường Linh Xuân, thành phố Thủ Đức, Hồ Chí Minh",
+      "city": "Hồ Chí Minh",
+      "district": "Thủ Đức",
+      "shipMethod": "shipping",
+      "payMethod": "online",
+      "totalPrice": 20000,
+      "userId": null,
+      "id": 5
+    },
+    {
+      "name": "Vương Hoàng Trân",
+      "email": "tranvh20406c@st.uel.edu.vn",
+      "tel": 888699663,
+      "address": "155/5 đường số 8, phường Linh Xuân, thành phố Thủ Đức, Hồ Chí Minh",
+      "city": "Hồ Chí Minh",
+      "district": "Thủ Đức",
+      "shipMethod": "shipping",
+      "payMethod": "online",
+      "totalPrice": 80000,
+      "userId": 3,
+      "id": 6
+    }
+  ],
+  "postnews": [
+    {
+      "id": "1",
+      "type": "EVENT",
+      "typeid": "1",
+      "title": "CULINARY WORKSHOP: LEARN TO BAKE BREAD AT HOME ",
+      "image": "assets/images/event/Untitled-1.png",
+      "date": "22/11/2023",
+      "description": "Join our Culinary Workshop and embark on a delightful journey of discovering the art of bread baking, all within the cozy confines of your own home. This hands-on experience will empower you with the skills and knowledge to craft delicious, freshly baked bread from scratch. Whether you're a novice or an experienced home cook, this workshop will guide you through the entire process, from selecting the finest ingredients to mastering the techniques of kneading and shaping.",
+      "detail": "<p><span>Are you ready to embark on a delightful culinary journey and discover the art of bread baking, all from the comfort of your own home? In our upcoming culinary workshop, we invite you to join us for a hands-on experience that will empower you with the skills and knowledge to craft delicious, freshly baked bread from scratch. Whether you're a novice or an experienced home cook, this workshop is designed to guide you through the entire process, from selecting the finest ingredients to mastering the techniques of kneading and shaping.</span></p><span><p><br></p></span><span><p><b>The Joy of Home Baking &#127969;</b></p><p><span>There's something truly special about the aroma of freshly baked bread wafting through your home. It not only fills your space with warmth but also fills your heart with a sense of accomplishment. In our Culinary Workshop, you'll get to experience this joy firsthand as we explore the world of bread baking.</span></p><b><p><b>A Workshop for All Skill Levels &#127869;&#65039;</b></p></b><p><span>One of the great aspects of this workshop is its inclusivity. Whether you've never attempted bread baking before or you're an experienced home cook looking to hone your skills, our workshop has something to offer everyone. Our experienced instructors will guide you every step of the way, ensuring that you leave with the confidence to continue your bread baking journey at home.</span></p><p><br></p><b><p><b>The Workshop Highlights &#127775;</b></p><p><b>During the &#34;Culinary Workshop</b><span>: Learn to Bake Bread at Home,&#34; you can look forward to:</span></p></b><ol><li><span><b>Ingredient Selection</b>: Learn the importance of selecting the finest ingredients to achieve that perfect loaf.</span></li><li><b>Kneading and Shaping</b>: Master the techniques of kneading and shaping your dough to create beautiful, artisan-style bread.</li><li><b>Baking Secrets</b>: Discover the secrets of achieving a crispy crust and soft, flavorful crumb in your bread.</li><li><b>Variety of Breads</b>: Explore a variety of bread types, from classic baguettes to rustic sourdough, and more.</li></ol><p><br></p><b><p><b>What to Expect &#128197;</b></p></b><p><span>Our virtual workshop offers the convenience of learning from your own kitchen. We provide a comprehensive recipe guide in advance, ensuring you have all the necessary ingredients ready. Then, join our expert instructor in a live virtual session, where they will walk you through each step and answer any questions you may have.</span></p><p><br></p><b><p><b>Join Us in This Culinary Adventure &#127869;&#65039;</b></p></b><p><span>Don't miss this opportunity to bring the joy of bread baking into your home. Sign up for our &#34;Culinary Workshop: Learn to Bake Bread at Home&#34; and join us on a delectable journey where you'll master the art of baking, one loaf at a time. Whether you're looking to impress your family and friends or simply enjoy the taste of freshly baked bread, this workshop is the perfect choice.</span></p><p><br></p><i><p><i>Prepare to fill your home with the heavenly scent of homemade bread and savor the delicious results of your efforts. Enroll today and let's bake some memories together! &#129366;&#127969;&#128104;&#8205;&#127859;</i></p></i></span>"
+    },
+    {
+      "id": "2",
+      "type": "event",
+      "typeid": "1",
+      "title": "SPECIAL DAY: BUY ONE, GET ONE FREE ESPRESSO",
+      "image": "assets/images/event/Untitled-2.png",
+      "date": "12/12/2022",
+      "description": "Indulge in the richness of our special day offer! For a limited time, when you purchase one of our exquisite espressos, you'll receive another one absolutely free. It's the perfect opportunity to savor the bold flavors and aromatic notes of our premium espresso while sharing the joy with a friend or loved one. Don't miss out on this extraordinary promotion - join us on our special day and double the delight with every sip.",
+      "detail": "<p><span>Indulge in the richness of our special day offer! For a limited time, when you purchase one of our exquisite espressos, you'll receive another one absolutely free. It's the perfect opportunity to savor the bold flavors and aromatic notes of our premium espresso while sharing the joy with a friend or loved one. Don't miss out on this extraordinary promotion - join us on our special day and double the delight with every sip.</span></p><span><p><span><br></span></p></span><p><b>A Rich Espresso Experience &#9749;</b></p><p><span>Are you ready to treat your taste buds to an exceptional coffee experience? Our special day promotion allows you to do just that. We're excited to offer you a unique opportunity to enjoy our premium espresso like never before.</span></p><p><span><br></span></p><b>Buy One, Get One Free</b><br><span>On our special day, when you order one of our exquisite espressos, we'll generously treat you to another one absolutely free. It's a simple, yet delightful way to share the joy of our finely crafted espresso with someone you care about.</span><br><span>Savor the Bold Flavors and Aromatic Notes</span><br><span>Our espressos are known for their rich, bold flavors and aromatic notes that awaken your senses. Whether you prefer the intensity of a classic espresso shot or the comfort of a creamy cappuccino, this promotion lets you enjoy your favorite coffee moments.</span><br><br><b>The Perfect Gathering Spot</b><br><span>Our cozy caf&#233; is not just a place for great coffee; it's also a space where friends and loved ones come together. Our special day offer is a fantastic reason to gather and celebrate with your favorite people. Share a coffee, share a moment, and double the delight.</span><br><br><b>Don't Miss Out!</b><br><span>This extraordinary promotion won't last forever. Make sure to mark your calendar and join us on our special day to take advantage of this fantastic deal. It's the perfect excuse to treat yourself and the people you cherish to an exceptional coffee experience.</span><br><br><p><i>Join us, and let's raise our cups to the joy of sharing good coffee and memorable moments. We can't wait to welcome you and make our special day even more special with a free espresso. See you soon! &#9749;&#128101;&#127881;</i></p>"
+    },
+    {
+      "id": "3",
+      "type": "event",
+      "typeid": "1",
+      "title": "GRAND OPENING: NEW BAKERY AND COFFEE SHOP! ",
+      "image": "assets/images/event/Untitled-3.png",
+      "date": "22-12/2021",
+      "description": "Step into our brand-new bakery and coffee shop! We're thrilled to announce the grand opening of our latest location, where we've combined the warmth of freshly baked goods with the aroma of artisanal coffee. Join us in celebrating this exciting addition to our family. With a wide array of delectable pastries, sumptuous bread, and handcrafted coffee, there's something for everyone to savor.",
+      "detail": "<span></span><span></span><span>Step into our brand-new bakery and coffee shop! We're thrilled to announce the grand opening of our latest location, where we've combined the warmth of freshly baked goods with the aroma of artisanal coffee. Join us in celebrating this exciting addition to our family. With a wide array of delectable pastries, sumptuous bread, and handcrafted coffee, there's something for everyone to savor.<br><br><b>A Culinary Haven Awaits &#127969;</b><br>Welcome to our new bakery and coffee shop, your haven for all things delicious. We've poured our passion into creating a space that's not just about food and drink, but about creating memorable moments.<br><br><b>Discover Our Delights</b></span><blockquote><p><span><b>&#129366; Bread</b>: Savor the aroma of freshly baked bread, crafted with care and skill. From baguettes to rustic loaves, our bread is a testament to the art of baking.</span></p><p><span><b>&#129360; Pastries</b>: Treat yourself to a variety of delectable pastries, from flaky croissants to sweet Danish pastries. Each bite is a journey of flavors.</span></p><p><span><b>&#9749; Coffee</b>: Immerse yourself in the rich, aromatic world of artisanal coffee. Our expertly brewed coffee will awaken your senses and keep you coming back for more.</span></p></blockquote><p></p><p><span><br><b>Join Us in Celebration</b><br>Our grand opening is a time for celebration, and we invite you to be a part of it. Bring your friends and family to experience our bakery and coffee shop's warm and inviting atmosphere. We've put our heart and soul into this place, and we can't wait to share it with you.<br><br><b>Save the Date &#128197;</b><br>Make sure to mark the date of our grand opening on your calendar. It's a day you won't want to miss. Join us in this culinary adventure and become a part of our extended family.</span></p><p><span><i>We're excited to meet you, serve you our finest offerings, and make our new bakery and coffee shop your favorite place to relax and indulge. See you soon! &#129366;&#9749;&#127856;&#127881;</i></span></p><p></p>"
+    },
+    {
+      "id": "4",
+      "type": "event",
+      "typeid": "1",
+      "title": "TASTE THE NEW SEASON: SUMMER-INSPIRED BREADS AND COFFEES",
+      "image": "assets/images/event/Untitled-4.png",
+      "date": "25/10/2023",
+      "description": "Welcome the summer season with a burst of fresh flavors! Our summer-inspired breads and coffees are here to delight your taste buds. Indulge in the taste of sunshine with our carefully crafted bread varieties and our refreshing iced coffees. As the weather warms up, we've curated a menu that embodies the essence of summer, and it's available for you to savor.",
+      "detail": "<p><span></span><span></span><span>Welcome the summer season with a burst of fresh flavors! Our summer-inspired breads and coffees are here to delight your taste buds. Indulge in the taste of sunshine with our carefully crafted bread varieties and our refreshing iced coffees. As the weather warms up, we've curated a menu that embodies the essence of summer, and it's available for you to savor.<br><br><b>A Summer Symphony for Your Senses &#127774;&#127838;</b><br>As the sun graces us with its warmth, we invite you to celebrate the season with our delightful summer offerings. From the aroma of freshly baked bread to the cool, invigorating sips of our iced coffees, we've captured the essence of summer in every bite and sip.<br><br><b>The Bread Selection &#129366;</b><br></span></p><blockquote><p><span><b>&#127806; Crunchy Baguettes:</b> Experience the crisp crust and airy interior of our baguettes, the perfect companions for picnics and gatherings.</span></p></blockquote><blockquote><p><span><b>&#127813; Tomato Basil Loaves:</b> Dive into the fresh flavors of summer with our tomato basil bread, bursting with Mediterranean charm.</span></p></blockquote><blockquote><p><span><b>&#129386; Sandwich Rolls: </b>Craft your perfect summer sandwich with our soft, fluffy sandwich rolls.</span></p></blockquote><p><span><b>Refreshing Iced Coffees &#9749;</b><br></span></p><blockquote><p><span><b>&#9749; Iced Espresso:</b> Cool down with the bold and invigorating kick of our iced espresso.</span></p></blockquote><blockquote><p><span><b>&#127848; Iced Mocha:</b> Satisfy your sweet tooth with our delightful iced mocha, a blend of rich coffee and creamy chocolate.</span></p></blockquote><p><span><br><b>Join Us for a Summer Adventure &#127796;</b><br>Our bakery and coffee shop is your summer destination. We're excited to be your go-to spot for those warm, sunny days and cool, refreshing breaks. Whether you're coming for a quick pick-me-up or planning a leisurely outing, we've got something to tantalize your taste buds.<br><br>Experience the Magic of Summer<br>Summer is all about creating memories, and what better way to do that than with the company of good friends and even better food and coffee? Our summer-inspired menu is the perfect catalyst for shared moments and the making of new traditions.<br><br><b>Savor the Sunshine</b><br>Join us for a culinary journey that captures the spirit of summer. Taste the new season with our summer-inspired breads and coffees, and let every bite and sip be a reminder of the sunshine. </span></p><p><span><i>We can't wait to welcome you and make your summer truly special. See you soon! &#127774;&#129366;&#9749;&#127846;&#127865;&#127796;</i></span><br></p><span></span>"
+    },
+    {
+      "id": "5",
+      "type": "event",
+      "typeid": "1",
+      "title": "CONCERT NIGHT: MUSIC AND COFFEE UNDER THE STARS",
+      "image": "assets/images/event/Untitled-5.png",
+      "date": "22/12/2023",
+      "description": "Get ready for a night of rhythm and brews! Join us under the starry sky for an unforgettable evening of live music and exceptional coffee. Our concert night combines the joy of great tunes with the comfort of handcrafted beverages. Whether you're a music enthusiast or a coffee connoisseur, this night promises to be an experience that touches the soul.",
+      "detail": "<span></span><span></span><span>Get ready for a night of rhythm and brews! Join us under the starry sky for an unforgettable evening of live music and exceptional coffee. Our concert night combines the joy of great tunes with the comfort of handcrafted beverages. Whether you're a music enthusiast or a coffee connoisseur, this night promises to be an experience that touches the soul.<br><br><b>A Harmonious Fusion &#127756;&#127926;</b><br>There's something truly magical about combining the power of music and the artistry of coffee. In our concert night, we bring these two passions together to create an unforgettable blend of sensory delight.<br><br><b>The Melodies &#127925;</b><br>&#127908; Live Performances: Immerse yourself in the soulful tunes of talented musicians who will grace our stage with their melodic artistry.<br>&#127928; Unplugged Sessions: Experience the raw and intimate sounds of acoustic performances that will strike a chord with your heart.<br><br><b>The Brews &#9749;</b><br></span><blockquote><span><b>&#9749; Crafted Coffee</b>: Sip on our meticulously brewed coffee, ranging from velvety lattes to strong and flavorful espresso shots.</span></blockquote><blockquote><span><b>&#127865; Specialty Drinks:</b> Explore a menu of specialty coffee creations that are as harmonious as the music, prepared with precision and passion.</span></blockquote><span><br><b>An Evening to Remember &#127747;</b><br>Our open-air venue invites you to savor the beautiful night sky while being serenaded by the soul-stirring tunes. Whether you're seeking a romantic night out, a gathering with friends, or a moment of solitude with great music, this evening is tailor-made for you.<br><br>A Symphony of Tastes and Sounds &#127926;&#9749;<br>At our concert night, we're orchestrating a symphony of tastes and sounds that will resonate with your senses. From the first sip of your coffee to the last note of the performance, you'll find yourself carried away by the magic of the moment.<br><br><b>Join Us Under the Stars</b><br>Don't miss this exceptional opportunity to revel in the rhythm of live music and the allure of crafted coffee. Join us for a night that promises to be an experience that touches the soul.<br>Bring your friends, your loved ones, or simply yourself, and let the night envelop you in its melodies and warmth. </span><p><span><i>We can't wait to share this special night with you. See you under the stars! &#127756;&#127926;&#9749;&#127747;</i><br></span></p>"
+    },
+    {
+      "id": "6",
+      "type": "instruction",
+      "typeid": "2",
+      "title": "CRAFTING THE PERFECT CUP OF COFFEE: A COMPREHENSIVE GUIDE ",
+      "image": "assets/images/event/Untitled-6.png",
+      "date": "22/12/2023",
+      "description": "Uncover the secrets of brewing the perfect cup of coffee with our comprehensive guide. From selecting premium beans to mastering advanced brewing techniques, we're here to help you achieve coffee perfection.",
+      "detail": "<span></span><span></span><span>Uncover the secrets of brewing the perfect cup of coffee with our comprehensive guide. From selecting premium beans to mastering advanced brewing techniques, we're here to help you achieve coffee perfection.<br><br><b>The Art of Coffee Mastery &#9749;</b><br>Coffee is more than just a beverage; it's an art, a science, and a delightful ritual. Whether you're an aspiring barista or a home coffee enthusiast, our comprehensive guide will take you on a journey to perfecting the craft of brewing the perfect cup.<br><br><b>A Journey Through the Guide</b><br>Our guide covers a wide range of topics to ensure you're well-equipped to create a cup of coffee that's nothing short of exceptional:<br></span><blockquote><span><b>1. Bean Selection: </b>Discover the importance of choosing high-quality coffee beans, including their origin, roast level, and flavor profiles.</span></blockquote><blockquote><span><b>2. Grinding Matters:</b> Learn the significance of coffee grinding, from choosing the right grind size to ensuring freshness.</span></blockquote><blockquote><span><b>3. Brewing Methods:</b> Explore various brewing methods, from the classic drip coffee to advanced techniques like pour-over, French press, and espresso.</span></blockquote><blockquote><span><b>4. Water Temperature and Ratios:</b> Master the precise balance of water temperature and coffee-to-water ratios for the perfect extraction.</span></blockquote><blockquote><span><b>5. Coffee Accessories:</b> Uncover the essential tools and accessories that can elevate your coffee-making experience.</span></blockquote><blockquote><span><b>6. Troubleshooting:</b> Troubleshoot common coffee brewing issues and learn how to make adjustments for a better cup.</span></blockquote><blockquote><span><b>7. Coffee Pairings:</b> Discover the art of pairing your coffee with complementary snacks, desserts, and more to enhance your tasting experience.</span></blockquote><span><br><b>Join Us on Your Coffee Journey &#9749;&#127775;</b><br>Our goal is to make your coffee journey as enjoyable as the final sip. Whether you're a beginner or a seasoned brewer, our guide is designed to be a valuable resource that enhances your knowledge and skills.<br><br><b>Coffee Perfection Awaits</b><br>The perfect cup of coffee is not just about taste; it's about creating a moment of pure pleasure. From the aromatic aroma that fills the air to the rich, velvety texture that dances on your palate, we're here to help you reach coffee perfection.<br><br><b>Your Journey Begins Here</b><br>Are you ready to embark on a journey of coffee mastery? Let our comprehensive guide be your trusted companion. Learn the art of selecting, grinding, brewing, and enjoying coffee like never before. </span><p><span><i>Get started on your path to crafting the perfect cup of coffee. Your coffee adventure awaits! &#9749;&#127793;&#128218;&#127881;</i><br></span></p>"
+    },
+    {
+      "id": "7",
+      "type": "instruction",
+      "typeid": "2",
+      "title": "BAKING ARTISANAL BREADS: A STEP-BY-STEP ",
+      "image": "assets/images/event/Untitled-7.png",
+      "date": "22/12/2023",
+      "description": "Embark on a journey of breadmaking mastery with our step-by-step guide. We'll guide you through every stage, from selecting simple, quality ingredients to honing your baking skills, ensuring you craft exquisite loaves.",
+      "detail": "<span></span><span></span><span>Embark on a journey of breadmaking mastery with our step-by-step guide. We'll guide you through every stage, from selecting simple, quality ingredients to honing your baking skills, ensuring you craft exquisite loaves.<br><br><b>The Art of Baking Artisanal Breads &#127838;</b><br>Baking artisanal bread is not just a culinary endeavor; it's a labor of love and a craft that can bring immense satisfaction. In our step-by-step guide, we invite you to discover the joy of creating artisanal bread in the comfort of your own kitchen.<br><br><b>A Journey Through the Guide</b><br>Our comprehensive guide takes you through each phase of breadmaking, ensuring you understand the nuances and techniques required to craft extraordinary loaves:<br></span><blockquote><span><b>1. Ingredients Selection:</b> Explore the significance of choosing the right ingredients, from the type of flour to the quality of yeast and water.</span></blockquote><blockquote><span><b>2. Bread Basics:</b> Learn the foundational principles of breadmaking, including mixing, kneading, and fermentation.</span></blockquote><blockquote><span><b>3. Artisanal Techniques:</b> Dive into advanced techniques like autolyse, folding, and shaping that elevate your bread to artisanal levels.</span></blockquote><blockquote><span><b>4. Baking Styles:</b> Explore different baking styles, from classic baguettes and rustic boules to enriched breads filled with nuts, seeds, and dried fruits.</span></blockquote><blockquote><span><b>5. Troubleshooting:</b> Identify common breadmaking issues and how to rectify them for better results.</span></blockquote><blockquote><span><b>6. Bread Presentation:</b> Discover the art of bread presentation, including scoring, glazing, and enhancing the visual appeal of your loaves.</span></blockquote><span><br><b>Join Us on Your Breadmaking Journey &#129366;&#127806;</b><br>Our aim is to make your breadmaking journey not just educational but also deeply rewarding. Whether you're new to bread baking or an experienced home baker, our guide is designed to provide you with the tools and knowledge to create bread that rivals the finest artisanal bakeries.<br><br><b>Artisanal Bread Awaits</b><br>Crafting artisanal bread is about more than just satisfying hunger; it's about creating a sensory experience that engages all your senses. From the crackling crust to the airy crumb and intoxicating aroma, we're here to help you attain breadmaking excellence.<br><br><b>Your Journey Begins Here</b><br>Are you ready to embark on a journey of breadmaking mastery? Let our step-by-step guide be your trusted companion. Learn the art of selecting ingredients, mastering techniques, and experiencing the joy of creating artisanal loaves. </span><p><span><i>Get started on your path to baking exquisite bread. Your breadmaking adventure awaits! &#127838;&#129379;&#128218;&#127881;</i><br></span></p>"
+    },
+    {
+      "id": "8",
+      "type": "instruction",
+      "typeid": "2",
+      "title": "ELEVATE YOUR BRUNCH GAME: CREATING THE ULTIMATE BRUNCH",
+      "image": "assets/images/event/Untitled-8.png",
+      "date": "22-12/2022",
+      "description": "Elevate your brunch game and create an extraordinary experience for your loved ones. From menu selection to exquisite decor and crafting a warm, inviting atmosphere, we'll guide you to host the ultimate brunch.",
+      "detail": "<span></span><span></span><span>Elevate your brunch game and create an extraordinary experience for your loved ones. From menu selection to exquisite decor and crafting a warm, inviting atmosphere, we'll guide you to host the ultimate brunch.<br><br><b>Crafting the Ultimate Brunch Experience &#127775;</b><br>Brunch is more than a meal; it's a social occasion, a moment to savor with friends and family. With our guidance, you can take your brunch to the next level, ensuring it's an unforgettable experience for everyone involved.<br><br><b>A Journey Through the Guide</b><br>Our comprehensive guide covers every aspect of hosting the ultimate brunch:<br></span><blockquote><span><b>1. Menu Selection:</b> Discover the art of choosing dishes that balance sweet and savory, accommodate dietary preferences, and showcase fresh, seasonal ingredients.</span></blockquote><blockquote><span><b>2. Cooking Tips:</b> Hone your culinary skills with tips on preparation, timing, and serving your brunch dishes to perfection.</span></blockquote><blockquote><span><b>3. Beverage Pairings:</b> Explore the world of brunch beverages, from mimosas and Bloody Marys to refreshing iced coffee and artisanal teas.</span></blockquote><blockquote><span><b>4. Table Setting:</b> Learn the secrets of elegant table settings, including tableware, linens, and decorative elements to create an inviting ambiance.</span></blockquote><blockquote><span><b>5. Atmosphere:</b> Craft a warm and welcoming atmosphere with music, lighting, and seating arrangements that make your guests feel at home.</span></blockquote><blockquote><span><b>6. Hosting Etiquette:</b> Understand the art of gracious hosting, including managing your time, engaging in conversation, and ensuring everyone has a memorable time.</span></blockquote><span><br><b>Join Us on Your Brunch Journey &#127869;&#65039;&#127804;</b><br>Our goal is to make your brunch experience not just a meal but an event to remember. Whether you're hosting a small gathering or a larger celebration, our guide is designed to provide you with the tools and knowledge to create a brunch that leaves a lasting impression.<br><br><b>The Ultimate Brunch Awaits</b><br>The ultimate brunch is more than just a combination of delectable dishes; it's an opportunity to create lasting memories with your loved ones. From the first bite of your brunch creations to the shared laughter and conversations, we're here to help you host the ultimate brunch experience.<br><br><b>Your Journey Begins Here</b><br>Are you ready to take your brunch game to the next level? Let our comprehensive guide be your trusted companion. Learn the art of menu planning, decor, and hosting that transforms your brunch into a memorable event. </span><p><span><i>Get started on your path to hosting the ultimate brunch. Your brunch adventure awaits! &#127859;&#127870;&#127881;&#127800;</i></span></p>"
+    },
+    {
+      "id": "9",
+      "type": "instruction",
+      "typeid": "2",
+      "title": "LATTE ART MASTERY: CREATING PRO STUNNING LATTE DESIGNS ",
+      "image": "assets/images/event/Untitled-9.png",
+      "date": "22/12/2023",
+      "description": "Become a latte art maestro with our guide to creating stunning designs on your coffee's surface. Learn from our expert baristas at our coffee shop and elevate your coffee presentation to professional levels.",
+      "detail": "<span></span><span></span><span>Become a latte art maestro with our guide to creating stunning designs on your coffee's surface. Learn from our expert baristas at our coffee shop and elevate your coffee presentation to professional levels.<br><br><b>The Art of Latte Mastery &#9749;&#128396;&#65039;</b><br>Latte art is more than just a visual treat; it's a form of self-expression and a way to infuse beauty into your daily coffee ritual. With our guidance, you can turn your morning coffee into a work of art.<br><br><b>A Journey Through the Guide</b><br>Our comprehensive guide covers the key steps and techniques for achieving latte art mastery:<br></span><blockquote><span><b>1. Espresso Basics:</b> Understand the foundation of a good espresso shot, which serves as the canvas for your latte art.</span></blockquote><blockquote><span><b>2. Steaming and Frothing Milk:</b> Master the art of steaming and frothing milk to achieve the right texture for latte art.</span></blockquote><blockquote><span><b>3. Pouring Techniques:</b> Learn different pouring techniques that allow you to create classic designs like hearts, rosettes, and tulips, as well as more advanced designs.</span></blockquote><blockquote><span><b>4. Tools and Equipment:</b> Discover the essential tools and equipment for latte art, including milk pitchers and thermometers.</span></blockquote><blockquote><span><b>5. Troubleshooting:</b> Troubleshoot common latte art issues and learn how to make adjustments for better results.</span></blockquote><blockquote><span><b>6. Creating Your Masterpiece:</b> Practice and refine your latte art skills, understanding how to combine espresso and milk to create stunning designs.</span></blockquote><span><br><b>Learn from the Pros &#127912;&#9749;</b><br>Our guide is designed to help you unlock the secrets of latte art like a professional barista. You'll gain the skills and confidence needed to turn your latte into a canvas and your milk steaming into an art form.<br><br><b>Latte Art at its Best</b><br>Latte art isn't just about aesthetics; it's about adding an extra layer of enjoyment to your coffee. From the first sip of your beautifully adorned latte to the satisfaction of creating a masterpiece, we're here to help you achieve latte art excellence.<br><br><b>Begin Your Latte Art Journey</b><br>Are you ready to elevate your coffee presentation and amaze your friends and family with your latte art skills? Let our comprehensive guide be your mentor on this creative journey. Learn the techniques and tricks that can turn your morning coffee into a canvas for your creativity.</span><p><span> <i>Start your path to latte art mastery today! &#127912;&#9749;&#127775;&#128104;&#8205;&#127859;</i><br></span></p>"
+    },
+    {
+      "id": "10",
+      "type": "instruction",
+      "typeid": "2",
+      "title": "SATISFYING SWEET TOOTH: THE ART OF COFFEE DESSERT PAIRING",
+      "image": "assets/images/event/Untitled-10.png",
+      "date": "12/12/2022",
+      "description": "Indulge your sweet tooth with the exquisite art of pairing coffee and desserts. We'll take you on a flavorful journey, guiding you to select the perfect coffee to complement a variety of delectable sweets, enhancing your culinary experience.\n",
+      "detail": "<span></span><span></span><span>Indulge your sweet tooth with the exquisite art of pairing coffee and desserts. We'll take you on a flavorful journey, guiding you to select the perfect coffee to complement a variety of delectable sweets, enhancing your culinary experience.<br><br><b>A Symphony of Flavors &#127926;&#127856;</b><br>Pairing coffee and desserts is more than a simple combination; it's a harmonious duet that can elevate both the taste of your coffee and the sweetness of your treats. In our guide, we'll explore the world of coffee and dessert pairings to help you satisfy your sweet cravings in style.<br><br><b>A Journey Through the Guide</b><br>Our comprehensive guide takes you on a delightful journey to perfecting the art of coffee and dessert pairing:<br></span><blockquote><span><b>1. Coffee Basics:</b> Understand the flavor profiles and characteristics of different coffee beans, from rich and bold to bright and fruity.</span></blockquote><blockquote><span><b>2. Dessert Selection:</b> Explore a wide range of desserts, from creamy cheesecakes to decadent chocolate treats, and understand their flavor profiles.</span></blockquote><blockquote><span><b>3. Complementary Pairings:</b> Learn which coffee pairs best with specific desserts to create harmonious flavor combinations.</span></blockquote><blockquote><span><b>4. Creating the Perfect Pairing:</b> Discover the art of balancing the sweetness of desserts with the bitterness, acidity, and body of your coffee.</span></blockquote><blockquote><span><b>5. Presentation:</b> Elevate the experience with presentation tips and ideas to make your coffee and dessert pairings visually appealing.</span></blockquote><blockquote><span><b>6. Experimentation:</b> Encourage experimentation and exploration to find your personal favorite coffee and dessert combinations.</span></blockquote><span><br><b>Satisfying Sweet Tooth Awaits &#127856;&#9749;</b><br>Pairing coffee and desserts is about creating memorable moments and celebrating your love for both. From the velvety texture of your coffee to the decadence of your desserts, we're here to help you achieve the perfect pairing.<br><b><br>Begin Your Sweet Journey</b><br>Are you ready to explore the delightful world of coffee and dessert pairings? Let our comprehensive guide be your companion in this flavorful adventure. Learn how to choose the right coffee to complement your favorite sweets and elevate your culinary experience. </span><p><span><i>Start your journey to satisfy your sweet tooth today! &#127854;&#128104;&#8205;&#127859;&#127881;&#127775;</i></span></p>"
+    },
+    {
+      "id": "11",
+      "type": "promotion",
+      "typeid": "3",
+      "title": "UNMISSABLE DEAL: BUY ONE, GET ONE FREE ESPRESSO!",
+      "image": "assets/images/event/Untitled-11.png",
+      "date": "22/12/2022",
+      "description": "Don't miss out on our exclusive promotion! When you buy one of our premium espressos, we're giving you a second one absolutely free. It's the perfect opportunity to enjoy your favorite espresso with a friend or savor two cups all to yourself. Hurry, this offer won't last long!",
+      "detail": "<span></span><span></span><span>Don't miss out on our exclusive promotion! When you buy one of our premium espressos, we're giving you a second one absolutely free. It's the perfect opportunity to enjoy your favorite espresso with a friend or savor two cups all to yourself. Hurry, this offer won't last long!<br><b><br>Double the Espresso Delight &#9749;&#9749;</b><br>When it comes to your daily coffee fix, we believe in offering you not just a cup but an experience. That's why we've crafted this unmissable deal that allows you to double the delight of your espresso.<br><br><b>The Offer Details</b><br></span><blockquote><span><b>&#128073; Buy One, Get One Free:</b> Purchase one of our premium espressos, and we'll gift you another one, absolutely free.</span></blockquote><blockquote><span><b>&#128073; Quality in Every Cup:</b> Enjoy the exceptional taste of our meticulously crafted espresso, whether you prefer it strong and intense or smooth and velvety.</span></blockquote><blockquote><span><b>&#128073; Share or Savor:</b> This offer is versatile. Share a cup with a friend, loved one, or colleague, or simply savor both cups yourself.</span></blockquote><span><br><b>Limited Time Offer</b><br>Hurry, this offer won't last long! It's your chance to enjoy the unmatched quality of our espressos and share the joy of premium coffee with someone special.<br><br><b>Visit Us Today</b><br>Come to our coffee shop and make the most of this unmissable deal. Our baristas are ready to serve you the perfect cup of espresso, and you'll leave with twice the satisfaction.<br>Don't let this offer slip away. </span><p><span><i>Buy one, get one free, and enjoy the unparalleled taste of our premium espressos today! &#9749;&#9749;&#127873;&#127939;&#8205;&#9794;&#65039;&#127939;&#8205;&#9792;&#65039;&#127939;&#8205;&#9794;&#65039;&#127939;&#8205;&#9792;&#65039;</i><br></span></p>"
+    },
+    {
+      "id": "12",
+      "type": "promotion",
+      "typeid": "3",
+      "title": "GRAND OPENING SPECIAL: 20% OFF YOUR FIRST BAKERY PURCHASE!",
+      "image": "assets/images/event/Untitled-12.png",
+      "date": "11/02/2023",
+      "description": "To celebrate the grand opening of our new bakery and coffee shop, we're offering a special deal. Get a delightful 20% off your first purchase of our delectable baked goods. It's our way of saying thank you for being a part of our journey.",
+      "detail": "<p><span>To celebrate the grand opening of our new bakery and coffee shop, we're offering a special deal. Get a delightful 20% off your first purchase of our delectable baked goods. It's our way of saying thank you for being a part of our journey.</span></p><p><span><b>A Warm Welcome to Our New Bakery and Coffee Shop &#127969;&#129366;</b></span></p><p><span>We are thrilled to announce the grand opening of our new bakery and coffee shop, and we couldn't be more excited to have you join us in this celebration. To mark this special occasion, we're extending our gratitude by offering you a fantastic discount.</span></p><span><b>The Offer Details</b></span><br><blockquote><span><b>&#127873; 20% Off Your First Purchase: </b>Come and explore our delightful array of baked goods, including fresh bread, pastries, and more. As a token of our appreciation, you'll enjoy 20% off your first purchase.</span></blockquote><blockquote><span><b>&#127838; Fresh Baked Goodies:</b> Delight in the aroma of freshly baked bread, the flakiness of our pastries, and the sweetness of our treats. Our bakery is filled with creations that are sure to satisfy your cravings.</span></blockquote><blockquote><span><b>&#9749; Handcrafted Coffee:</b> Complement your purchase with our handcrafted coffee, brewed to perfection. Whether you prefer a classic cup of Joe or a specialty latte, we've got your caffeine fix covered.</span></blockquote><span><b>Join Us for the Celebration</b></span><p><span>We invite you to be a part of our grand opening celebration. Come and experience the warm and inviting atmosphere of our bakery and coffee shop. It's the perfect opportunity to treat yourself and enjoy the flavors of our freshly baked goods.</span></p><p><span><b>Don't Miss Out</b></span><br><span>This special deal is for a limited time only. Make sure to visit us and take advantage of the 20% discount on your first purchase. We can't wait to welcome you and celebrate this momentous occasion with you.</span><br></p><p><span><i>Thank you for being a part of our journey, and here's to many more delightful moments ahead. See you at our grand opening! &#129366;&#127856;&#9749;&#127881;&#128717;&#65039;</i></span></p><p></p><p></p>"
+    },
+    {
+      "id": "13",
+      "type": "promotion",
+      "typeid": "3",
+      "title": "TASTE OF SUMMER: BUY A SUMMER BREAD, GET A FREE ICED COFFEE!",
+      "image": "assets/images/event/Untitled-13.png",
+      "date": "22/12/2023",
+      "description": "Experience the taste of summer with our exciting offer! Purchase any of our summer-inspired bread varieties, and we'll treat you to a free iced coffee to complement the sunny flavors. It's the perfect way to cool down and savor the season.",
+      "detail": "<p><span>Experience the taste of summer with our exciting offer! Purchase any of our summer-inspired bread varieties, and we'll treat you to a free iced coffee to complement the sunny flavors. It's the perfect way to cool down and savor the season.</span></p><span><p><span><b>A Slice of Summer in Every Bite &#127774;&#127838;</b></span></p></span><span><p><span>Summer is all about bright flavors and refreshing moments. At our bakery and coffee shop, we're thrilled to bring you a special offer that captures the essence of this sunny season.</span></p><p><span><b>The Offer Details</b></span></p></span><blockquote><span><p><span><b>&#129366; Summer Bread Selection:</b> Explore our delightful range of summer-inspired bread varieties, each baked to perfection with flavors that scream summer. From fruity loaves to zesty baguettes, there's something for every taste.</span></p></span></blockquote><blockquote><span><p><span><b>&#9749; Cooling Iced Coffee:</b> Pair your summer bread purchase with a free iced coffee. Our iced coffee is a blend of smooth coffee and chilled perfection, the ideal accompaniment to your sunny day treat.</span></p></span></blockquote><span><p><span><b>Savor the Season</b></span></p><p><span>Our bakery and coffee shop is your destination for a slice of summer bliss. Whether you're taking your bread and coffee to go for a picnic, a day at the beach, or enjoying them in our cozy caf&#233;, this offer is a delightful way to celebrate the season.</span></p><p><span><b>Join Us for Summer Delights</b></span></p><p><span>Don't miss out on this chance to enjoy the taste of summer. Visit us and select your favorite summer bread, and we'll make sure your iced coffee complements the flavors perfectly.</span></p><p><span><b>Cool Down with Us</b></span></p><p><span>The summer heat is here, and we're ready to help you cool down and savor the season. </span></p><p><span><i>Join us for a memorable culinary experience that's all about the tastes of summer. See you soon! &#127838;&#127846;&#127796;&#127865;&#127881;</i></span></p></span>"
+    },
+    {
+      "id": "14",
+      "type": "promotion ",
+      "typeid": "3",
+      "title": "CONCERT NIGHT SPECIAL: 10% OFF YOUR COFFEE AND DESSERT PAIRING!",
+      "image": "assets/images/event/Untitled-14.png",
+      "date": "22/11/2023",
+      "description": "Join us for a memorable Concert Night under the stars. Enjoy 10% off when you pair your favorite coffee with a delectable dessert from our menu. It's the perfect way to elevate your evening of music and coffee.",
+      "detail": "<p><span>Join us for a memorable Concert Night under the stars. Enjoy 10% off when you pair your favorite coffee with a delectable dessert from our menu. It's the perfect way to elevate your evening of music and coffee.</span></p><p><span><b>The Rhythm of Coffee and Dessert &#127775;</b></span></p><p><span>What's better than live music under the stars? Live music, coffee, and dessert! We're excited to enhance your Concert Night experience with this special offer.</span></p><p><span><br></span></p><span><b>The Offer Details</b></span><br><blockquote><span><b>&#127925; Live Music:</b> Immerse yourself in the soulful tunes of talented musicians during our Concert Night.</span></blockquote><blockquote><span><b>&#9749; Coffee Selection:</b> Choose your favorite coffee from our menu, whether it's a classic brew or a specialty creation.</span></blockquote><blockquote><span><b>&#127856; Delectable Desserts:</b> Explore our dessert menu filled with sweet treats that perfectly complement your coffee choice.</span></blockquote><blockquote><span><b>&#127881; 10% Off:</b> Enjoy a 10% discount when you pair your coffee with a dessert. It's our way of making your Concert Night even more special.</span></blockquote><br><span><b>Elevate Your Evening</b></span><br><span>Concert Night is all about creating lasting memories. Pairing your coffee with a delectable dessert is the perfect way to elevate your experience and create an unforgettable evening.</span><br><br><span><b>Join Us Under the Stars</b></span><br><span>Don't miss out on this special offer. Join us for a Concert Night filled with music, coffee, and dessert. We can't wait to share this memorable evening with you.</span><br><br><span><b>Take a Seat</b></span><br><p><span><i>Whether you're coming with friends, family, or your significant other, we invite you to take a seat, relax, and let the music, coffee, and dessert sweep you away. See you under the stars! &#127926;&#127747;&#127856;&#9749;&#127776;&#127881;</i></span></p>"
+    },
+    {
+      "id": "15",
+      "type": "promotion",
+      "typeid": "3",
+      "title": "LOYALTY REWARDED: EXCLUSIVE DISCOUNTS FOR VALUED CUSTOMERS!",
+      "image": "assets/images/event/Untitled-15.png",
+      "date": "22/12/2023",
+      "description": "We value your loyalty, and we're excited to offer exclusive discounts to our valued customers. Stay tuned for special promotions and deals as a token of our appreciation for your continued support. Thank you for being a part of our coffee and bakery family.",
+      "detail": "<span></span><span></span><span>We value your loyalty, and we're excited to offer exclusive discounts to our valued customers. Stay tuned for special promotions and deals as a token of our appreciation for your continued support. Thank you for being a part of our coffee and bakery family.<br><br><b>You're Part of Our Coffee and Bakery Family &#9749;&#129360;&#128104;&#8205;&#128105;&#8205;&#128103;&#8205;&#128102;</b><br>At our coffee shop and bakery, we consider our customers to be part of our extended family. We appreciate your continued support and want to show our gratitude through exclusive discounts and special promotions just for you.<br><b><br>What to Expect</b><br></span><blockquote><span><b>&#127873; Exclusive Discounts:</b> Look forward to discounts and promotions that are exclusively available to our valued customers.</span></blockquote><blockquote><span><b>&#127856; Special Deals: </b>Enjoy unique deals on our bakery items, coffee selections, and more.</span></blockquote><blockquote><span><b>&#128717;&#65039; Promotional Events:</b> We'll host special events and promotions that provide you with additional savings and delightful experiences.</span></blockquote><span><br><b>Stay Connected</b><br>To make sure you don't miss out on any of these exciting offers, stay connected with us. You can find out about our exclusive discounts and promotions through our website, social media, and email newsletters.<br><br><b>Our Way of Saying Thank You</b><br>Our exclusive discounts and promotions are our way of saying thank you for being a part of our coffee and bakery family. We look forward to continuing to serve you and making your experience with us even more enjoyable.</span><p><span><br><i>Thank you for your loyalty, and we can't wait to share these special moments with you. See you soon for a coffee and a treat! &#9749;&#129360;&#128722;&#127881;&#128104;&#8205;&#128105;&#8205;&#128103;&#8205;&#128102;</i><br></span></p>"
+    }
+  ]
+}

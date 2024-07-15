@@ -1,0 +1,66 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .background {
+    background: url('background1.jpg');
+} */
+.add-product {
+    background-color: #1e4530;
+    backdrop-filter: blur(100px);
+    color:antiquewhite;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+    width: 500px;
+    margin-left: 350px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    transform: translate (-50%, -100%)
+}
+
+h1 {
+    text-align:center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 600px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.add-product .form-input {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    border: 2px solid rgha(255, 255, 255, .2);
+    border-radius: 20px;
+    padding: 20px 45px 20px 20px;
+    position: relative;
+}
+
+.form-button {
+    width: 100%;
+    height: 45px;
+    background-color: antiquewhite;
+    color:#1e4530;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.error-p {
+    color:rgb(173, 1, 1);
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: rgb(243, 189, 157);
+    border-radius: 40px;
+}
+.message-p {
+    color:#1e4530;
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: rgb(196, 240, 196);
+    border-radius: 40px;
+}

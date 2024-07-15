@@ -1,0 +1,36 @@
+<div  class="title-page">
+    <img class="img-title" src="assets/images/instruction.jpg">
+    <div class="nav-title-content">
+        <p class="content-title">INSTRUCTION</p>
+    </div>
+    <table style="margin-left:2vw">
+        <ng-container *ngFor="let item of newsData; let even = even">
+          <tr class="list-contents">
+            <ng-container *ngIf="even; else oddContent">
+              <!-- Dữ liệu có vị trí như cũ -->
+              <td class="td-image"><img class="image-content" src="{{item.image}}"></td>
+              <td class="content-image">
+                <div class="title-contents">
+                  <div class="shape"></div>
+                  <p class="title-content">{{item.title}}</p>
+                </div>
+                <p class="sumary-content">{{item.description}}</p>
+                <button [routerLink]="['/news', item.id]" class="detail-content">DETAIL</button>
+              </td>
+            </ng-container>
+            <ng-template #oddContent>
+              <!-- Dữ liệu đảo chỗ giữa hai cột -->
+              <td class="content-image">
+                <div class="title-contents">
+                  <div class="shape"></div>
+                  <p class="title-content">{{item.title}}</p>
+                </div>
+                <p class="sumary-content">{{item.description}}</p>
+                <button [routerLink]="['/news', item.id]" class="detail-content">DETAIL</button>
+              </td>
+              <td class="td-image"><img class="image-content" src="{{item.image}}"></td>
+            </ng-template>
+          </tr>
+        </ng-container>
+      </table>
+      

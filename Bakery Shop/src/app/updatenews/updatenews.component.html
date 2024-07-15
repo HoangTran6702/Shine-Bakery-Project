@@ -1,0 +1,18 @@
+<div class="update-product">
+    <h1>Update Product</h1>
+    <form   #updateNews="ngForm" (ngSubmit)="submit(updateNews.value)"
+     class="common-form">
+      <input type="text" class="form-input" placeholder="Enter ID"     name="id"     ngModel="{{postnewsData?.id}}"/>
+      <input type="text" class="form-input" placeholder="Enter Type"   name="type"   ngModel="{{postnewsData?.type}}"/>
+      <input type="text" class="form-input" placeholder="Enter TypeID" name="typeid" ngModel="{{postnewsData?.typeid}}"/>
+      <input type="text" class="form-input" placeholder="Enter Title"  name="title"  ngModel="{{postnewsData?.title}}"/>
+      <input type="text" class="form-input" placeholder="Enter Image"  name="image"  ngModel="{{postnewsData?.image}}"/>
+      <input type="text" class="form-input" placeholder="Enter Date"   name="date"   ngModel="{{postnewsData?.date}}"/>
+      <textarea type="text" class="form-input" placeholder="Enter Description" 
+      name="description" ngModel="{{postnewsData?.description}}"></textarea>
+      <angular-editor [placeholder]="'Nhập nội dung ở đây...'" [config]="config"
+      name="detail" ngModel="{{postnewsData?.detail}}"></angular-editor>
+      <button class="form-button">Update News</button>
+    </form>
+  </div>
+  

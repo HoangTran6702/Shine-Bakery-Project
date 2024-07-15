@@ -1,0 +1,157 @@
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 0.5px 0.5px;
+}
+
+.textBaked{
+    font-size: 50px;
+    color: rgb(30, 69, 46);
+    /* padding-top: 10px; */
+    /*  padding-left: 10px;
+    padding-right: 50px;
+    padding-top: 10px; */
+    font-weight: bold;
+}
+
+.imgLeftStory{
+    width: 350px;
+     height: 500px;
+     margin-top: 20px;
+     margin-left: 20px;
+     margin-bottom: 20px;
+     margin-right: 30px;
+}
+
+.imgRightStory{
+    width: 180px;
+    height: 230px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+
+.imgComponent{
+    text-align: center;
+}
+
+.textStory{
+    /* padding: 20px 70px 5px 50px;  */
+     padding-top: 20px;
+    /*padding-left: 10px;
+    padding-right: 50px;
+    padding-top: 10px; */
+    color: rgb(30, 69, 46);
+}
+
+.textLongStory{
+    padding-top: 20px;
+    /*  padding-left: 10px;
+    padding-right: 50px;
+    padding-top: 10px; */
+    /* padding: 10px 10px 10px 50px;  */
+    padding-right: 70px;
+    color: rgb(30, 69, 46);
+}
+
+.textReadStory{
+    text-decoration-line: underline; 
+    padding-top: 20px;
+    /* padding-left: 10px;
+    padding-right: 50px;
+    padding-top: 10px; */
+    /* padding: 10px 300px 20px 50px;  */
+    color: rgb(30, 69, 46);
+}
+
+td .textBakeBeve{
+    text-align: center; 
+    font-size: 50px; 
+    padding: 30px 50px 30px 50px;
+}
+
+td .textBake{
+    color: rgb(237, 222, 205);
+    text-align: center;
+}
+
+td .textBeverage{
+    color: rgb(84, 108, 92);
+    text-align: center;
+}
+
+td .textLongBakeBeve{
+    text-align: center; 
+    font-size: 20px; 
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+.miniText{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+td .textPress{
+        text-align: center; 
+        font-size: 50px;  
+        color: rgb(84, 108, 92);
+        padding-top: 30px;
+}
+
+td .textSmallPress{
+    color: rgb(84, 108, 92);
+    text-align: center;
+}
+
+td .textLongPress{
+    text-align: center; 
+    color: rgb(84, 108, 92);
+    padding-right: 5px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+    /* padding: 30px 5px 30px 10px; */
+}
+
+tr .textArticle{
+    text-decoration-line: underline; 
+    text-align: center; 
+    font-size: 20; 
+    color: rgb(84, 108, 92); 
+    padding: 0.5px 50px 30px 50px;
+}
+
+.child {
+    align-self: flex-end; 
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+}
+.bounce:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+  }

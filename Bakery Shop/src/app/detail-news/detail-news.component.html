@@ -1,0 +1,16 @@
+<div class="title-page">
+    <img class="img-title" src="assets/images/{{ newsData.type.toLowerCase() }}.jpg">
+      <div class="nav-title-content">
+        <p class="content-title">{{ getFormattedType() }}</p>
+      </div>
+    </div>
+    <div class="detail-news">
+      <h2 style="text-align:center;  color: #1e4530;">{{ newsData.title }}</h2>
+      <img [src]="newsData.image" alt="{{ newsData.title }}" class="news-image">
+      <div class="content">
+        <p [innerHTML]="newsData.detail"></p>
+        <p style="margin-left:37vw; text-align: justify;">Date: {{ newsData.date }}</p>
+      </div>
+      <button [routerLink]="['/news', newsData.type.toLowerCase()]">Back to {{newsData.type.toLowerCase()}}</button> 
+    </div>
+    

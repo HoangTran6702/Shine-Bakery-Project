@@ -1,0 +1,67 @@
+@import
+url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+table {
+    margin-left: 100px;
+    
+    
+}
+.productName {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #1E4530;
+    font-weight: bold;
+}
+.productPrice {
+    color: #E9BA69;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+.productCate {
+    color: #1E4530;
+    font-size: 20px;
+    font-weight: 500;
+}
+h5{
+    font-weight: 700;
+}
+table tr td {
+    padding-right: 100px;
+}
+.quantity-group button{
+    background-color: #1E4530;
+    color: white;
+}
+.quantity-group input {
+    width: 100px; 
+    border-radius: 0%;
+    border: 1.5px solid #cecece;
+    height: auto;
+    text-align: center;
+    margin-left: 5px; 
+    margin-right: 5px; 
+    
+}
+.form-button {
+    margin-top: 30px; 
+    margin-right: 30px; 
+    width: 160px;
+    height: 50px; 
+    border-radius: 3px;
+    background-color:#1E4530;
+    color:#feeccd;
+    font-weight: 500;
+}
+h4 {
+    margin-top: 50px; 
+    color:#1E4530;
+}
+.contact {
+    vertical-align: top;
+}
+.icon-contact {
+    margin-top: 20px;
+}
+.dess{
+    text-align: justify;
+}

@@ -1,0 +1,132 @@
+nav {
+    display: flex;
+    height: 15vh;
+    align-items: top;
+    width: 100vw;
+    background-color:#FFF8EC;
+    position: fixed;
+    transition: height 0.3s ease; /* Giảm thời gian chuyển động và sử dụng ease */
+    top: 0;
+    z-index: 999;
+    margin:0;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    width: 100%;
+    align-items: center;
+    justify-content:space-between;
+    margin:0;
+}
+
+nav ul li {
+    width: 15vw;
+}
+
+nav ul li button {
+    width: 15vw;
+    height: 10vh;
+    font-size: 2.5vh;
+    background-color: #FFF8EC;
+    border: none;
+    font-weight: bold;
+    color: #1E4530;
+    font-family: 'roboto';
+    cursor: pointer;
+    transition: background-color 0.25s ease-in-out;
+}
+
+nav ul li button:hover {
+    background-color: #1E4530;
+    color: white;
+}
+
+.img-logo {
+    width: 15vh;
+    aspect-ratio: 1/1;
+    margin:0;
+}
+
+ul li .dropdown-content li {
+    display: block;
+}
+
+ul li ul.dropdown-content {
+    width: 100%;
+    position: absolute;
+    z-index: 888;
+    display: none;
+    padding: 0;
+}
+
+/* Display dropdown content on hover */
+ul li:hover ul.dropdown-content {
+    display: block;
+}
+
+.search-field {
+    display: none;
+    background-color:rgba(255, 255, 255, 0.89);
+    border-radius: 2vw;
+    height: 4vw;
+    width: 50vw;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 25vw;
+    box-shadow: rgba(0, 0, 0, 0.08) 2px 4px 12px;
+}
+
+.search-field input {
+    height: 3vw;
+    width: 80%;
+    margin-left: 2vw;
+    outline: none;
+    border: none;
+    font-size: 1.5vw;
+    background-color: #ffffffe7;
+}
+
+.search-field button{
+    height:4vw;
+    width:4vw;
+    background-color: #ffffffe7;
+    cursor:pointer;
+    border-radius:2vw;
+    border:none;
+    transition: background-color 0.3s ease; 
+  
+}
+.search-field button:hover{
+    background-color:#efeff8;
+}
+.suggested-result{
+    display:flex;
+    flex-direction: column;
+    background-color:rgb(255, 255, 255);
+    border-radius:2vw;
+  
+}
+.suggested-result li{
+    background-color:white;
+    font-size:1.5vw;
+    color:#1E4530;
+    display:flex;
+    align-items: center;
+    margin-bottom:2px;
+    height:3vw;
+}
+.suggested-result li:hover{
+    color:bisque;
+}
+.user ul li{
+    width:10vw;
+}
+.user ul li button{
+    width:10vw;
+    font-size:2vh;
+}
+
+.cartItems{
+    text-decoration: none;
+}
